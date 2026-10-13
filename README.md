@@ -4,6 +4,6 @@
 
 | 模块 | 说明 |
 | --- | --- |
-| [locale-zh-hant](modules/locales/locale-zh-hant/README.md) | 繁体中文语言包：为部署增加 `zh-Hant` 界面语言 |
+| [locale-zh-hant](modules/locale-zh-hant/README.md) | 繁体中文语言包：为部署增加 `zh-Hant` 界面语言 |
 
 开发前先按 [AGENTS.md](AGENTS.md) 绑定主仓 SDK。
