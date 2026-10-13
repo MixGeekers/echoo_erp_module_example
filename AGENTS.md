@@ -6,7 +6,7 @@
 
 | 位置 | Module ID | 职责 |
 | --- | --- | --- |
-| `modules/locales/locale-zh-hant` | `example.locale-zh-hant` | 繁体中文（`zh-Hant`）语言包示例 |
+| `modules/locale-zh-hant` | `example.locale-zh-hant` | 繁体中文（`zh-Hant`）语言包示例 |
 
 模块身份、公共入口与依赖由各模块的 `echoo.module.json` 与 `package.json` 表达。
 

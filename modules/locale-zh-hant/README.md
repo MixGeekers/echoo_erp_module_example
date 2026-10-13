@@ -21,7 +21,7 @@
 
 ## 构建与验证
 
-1. 按仓库根目录的 [AGENTS.md](../../../AGENTS.md) 绑定 SDK，然后在仓库根目录执行 `pnpm install`。
+1. 按仓库根目录的 [AGENTS.md](../../AGENTS.md) 绑定 SDK，然后在仓库根目录执行 `pnpm install`。
 2. 在本目录执行 `pnpm build`、`pnpm test`。smoke 只激活 i18n 自身，其他模块的译文计入拒绝数并记录 `I18N_PACK_ENTRIES_REJECTED` 警告，这是预期结果。
 3. 执行 `pnpm sdk:capture`、`pnpm sdk:check`，再经所属模块池的 `mother:publish` 发布，并把本模块加入目标客户组合。
 
