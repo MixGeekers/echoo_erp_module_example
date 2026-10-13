@@ -1,0 +1,48 @@
+# Normalize text files to LF in every working tree.
+* text=auto eol=lf
+
+# 翻译 CSV 保持导出时的 UTF-8 BOM 与 CRLF，便于 Excel 直接打开。
+*.csv -text
+
+# Windows command scripts need CRLF for compatibility.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+
+# Binary assets.
+*.7z -text
+*.avi -text
+*.bin -text
+*.db -text
+*.dll -text
+*.docx -text
+*.dylib -text
+*.eot -text
+*.exe -text
+*.gif -text
+*.gz -text
+*.icns -text
+*.ico -text
+*.jar -text
+*.jpeg -text
+*.jpg -text
+*.mov -text
+*.mp3 -text
+*.mp4 -text
+*.node -text
+*.otf -text
+*.pdf -text
+*.png -text
+*.pptx -text
+*.rar -text
+*.sqlite -text
+*.tar -text
+*.tgz -text
+*.ttf -text
+*.wasm -text
+*.wav -text
+*.webp -text
+*.woff -text
+*.woff2 -text
+*.xlsx -text
+*.zip -text
