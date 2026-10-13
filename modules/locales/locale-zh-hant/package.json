@@ -1,0 +1,21 @@
+{
+  "name": "@echoo/module-example.locale-zh-hant",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./backend": {
+      "types": "./dist/backend.d.ts",
+      "import": "./dist/backend.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "node dist/smoke.js"
+  },
+  "dependencies": {
+    "@echoo/core": "workspace:*",
+    "@echoo/package-manager": "workspace:*",
+    "@echoo/module-root.i18n": "workspace:*"
+  },
+  "description": "繁体中文（zh-Hant）语言包示例"
+}

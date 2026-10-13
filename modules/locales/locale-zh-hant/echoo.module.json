@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "example.locale-zh-hant",
+  "entries": {
+    "backend": "./backend"
+  },
+  "contracts": {
+    "backend": "1.0"
+  },
+  "dependencies": {
+    "root.i18n": {
+      "shared": {
+        "major": 1,
+        "minMinor": 1
+      },
+      "backend": {
+        "major": 1,
+        "minMinor": 1
+      }
+    }
+  },
+  "integrations": {},
+  "resourceSpaces": [],
+  "runtime": {
+    "backend": {
+      "major": 1,
+      "minMinor": 0
+    }
+  },
+  "data": {
+    "kind": "stateless"
+  }
+}

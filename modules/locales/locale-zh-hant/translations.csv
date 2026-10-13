@@ -1,0 +1,632 @@
+﻿key,zh-CN,en-US,es-VE,translation
+root.connectivity.error.http,服务器返回错误（HTTP {status}）,Server returned an error (HTTP {status}),El servidor devolvió un error (HTTP {status}),服務器返回錯誤（HTTP {status}）
+root.connectivity.error.invalid-response,服务器响应无法解析,Server response could not be parsed,No se pudo interpretar la respuesta del servidor,服務器響應無法解析
+root.connectivity.error.network,网络不可达，无法连接服务器,Network unreachable; cannot reach the server,Red inalcanzable; no se puede contactar al servidor,網絡不可達，無法連接服務器
+root.connectivity.error.realtime,实时通道异常（{code}）,Realtime channel error ({code}),Error del canal en tiempo real ({code}),實時通道異常（{code}）
+root.connectivity.error.unknown,连接异常（{code}）,Connection error ({code}),Error de conexión ({code}),連接異常（{code}）
+root.connectivity.offline.attempts,重连尝试,Reconnect attempts,Intentos de reconexión,重連嘗試
+root.connectivity.offline.attempts.value,第 {attempt} 次,Attempt {attempt},Intento {attempt},第 {attempt} 次
+root.connectivity.offline.copied,诊断信息已复制,Diagnostics copied,Diagnóstico copiado,診斷信息已複製
+root.connectivity.offline.copy-diagnostics,复制诊断信息,Copy diagnostics,Copiar diagnóstico,複製診斷信息
+root.connectivity.offline.copy-failed,复制失败，请手动记录,Copy failed; please note it down,No se pudo copiar; anótelo manualmente,複製失敗，請手動記錄
+root.connectivity.offline.description,为防止数据不一致，编辑已暂停；正在自动重连，请稍候。,"Editing is paused to prevent inconsistent data; reconnecting automatically, please wait.","La edición queda en pausa para evitar datos inconsistentes; reconectando automáticamente, espere un momento.",爲防止數據不一致，編輯已暫停；正在自動重連，請稍候。
+root.connectivity.offline.elapsed,已持续 {duration},down for {duration},caído durante {duration},已持續 {duration}
+root.connectivity.offline.error,错误信息,Error,Error,錯誤信息
+root.connectivity.offline.next-retry,{seconds} 秒后重试,Retrying in {seconds} s,Reintentando en {seconds} s,{seconds} 秒後重試
+root.connectivity.offline.retry-now,立即重试,Retry now,Reintentar ahora,立即重試
+root.connectivity.offline.retrying,正在重试…,Retrying…,Reintentando…,正在重試…
+root.connectivity.offline.server,服务器地址,Server address,Dirección del servidor,服務器地址
+root.connectivity.offline.since,断开时间,Disconnected at,Desconectado desde,斷開時間
+root.connectivity.offline.title,与后端服务器失去连接,Connection to the backend server lost,Conexión con el servidor perdida,與後端服務器失去連接
+root.connectivity.recovered.description,后端服务器已重新可用，正在返回工作区。,The backend server is reachable again; returning to your workspace.,El servidor vuelve a estar disponible; regresando a su espacio de trabajo.,後端服務器已重新可用，正在返回工作區。
+root.connectivity.recovered.title,已恢复连接,Connection restored,Conexión restablecida,已恢復連接
+root.connectivity.server-error.description,服务器可达但健康检查返回错误（HTTP {status}）。为防止数据不一致，操作已暂停；正在自动重试，请稍候。,"The server is reachable but its health check returned an error (HTTP {status}). Operations are paused to prevent inconsistent data; retrying automatically, please wait.","El servidor es alcanzable pero su verificación de salud devolvió un error (HTTP {status}). Las operaciones quedan en pausa para evitar datos inconsistentes; reintentando automáticamente, espere un momento.",服務器可達但健康檢查返回錯誤（HTTP {status}）。爲防止數據不一致，操作已暫停；正在自動重試，請稍候。
+root.connectivity.server-error.title,后端服务器返回错误,Backend server returned an error,El servidor devolvió un error,後端服務器返回錯誤
+root.home.column.assignee,负责人,Assignee,Responsable,負責人
+root.home.column.priority,优先级,Priority,Prioridad,優先級
+root.home.column.status,状态,Status,Estado,狀態
+root.home.column.time,时间,Time,Hora,時間
+root.home.column.work,工作,Work,Trabajo,工作
+root.home.description,汇总你今天要处理的工作和常用功能入口。,Your work for today and the features you use most.,Su trabajo de hoy y las funciones que más usa.,彙總你今天要處理的工作和常用功能入口。
+root.home.entries,功能入口,Features,Funciones,功能入口
+root.home.load-more,加载更多,Load more,Cargar más,加載更多
+root.home.more-error,后续工作加载失败：网络或服务暂时不可用，当前列表已保留。请重试。,Couldn't load more work: the network or service is temporarily unavailable. Your current list is kept. Try again.,No se pudo cargar más trabajo: la red o el servicio no está disponible. La lista actual se conserva. Inténtelo de nuevo.,後續工作加載失敗：網絡或服務暫時不可用，當前列表已保留。請重試。
+root.home.no-sources,暂无可用的工作来源。,No work sources are available.,No hay fuentes de trabajo disponibles.,暫無可用的工作來源。
+root.home.quick-empty,当前没有可用的快捷入口。,No quick entries are available yet.,Aún no hay accesos rápidos disponibles.,當前沒有可用的快捷入口。
+root.home.quick-start.configure,配置,Configure,Configurar,配置
+root.home.quick-start.editor.add-entry,添加{name},Add: {name},Agregar: {name},添加{name}
+root.home.quick-start.editor.available,可添加入口,Available entries,Accesos disponibles,可添加入口
+root.home.quick-start.editor.cancel,取消,Cancel,Cancelar,取消
+root.home.quick-start.editor.conflict,快速开始已在其他窗口修改：已刷新为最新的入口，请重新调整。,Quick start changed in another window. The latest entries are shown; adjust them again.,El inicio rápido cambió en otra ventana. Se muestran los accesos más recientes; ajústelos de nuevo.,快速開始已在其他窗口修改：已刷新爲最新的入口，請重新調整。
+root.home.quick-start.editor.move-down,下移,Move down,Bajar,下移
+root.home.quick-start.editor.move-up,上移,Move up,Subir,上移
+root.home.quick-start.editor.no-candidates,没有可添加的入口,No entries to add,No hay accesos para agregar,沒有可添加的入口
+root.home.quick-start.editor.remove,移除,Remove,Quitar,移除
+root.home.quick-start.editor.restore-confirm,将清空已选入口，首页改为显示添加引导。,"This clears the selected entries, and Home shows a prompt to add them again.",Se vaciarán los accesos seleccionados y el inicio mostrará una guía para agregarlos.,將清空已選入口，首頁改爲顯示添加引導。
+root.home.quick-start.editor.restore-default,恢复默认,Restore default,Restaurar predeterminado,恢復默認
+root.home.quick-start.editor.restore-title,恢复默认快速开始？,Restore the default quick start?,¿Restaurar el inicio rápido predeterminado?,恢復默認快速開始？
+root.home.quick-start.editor.save-failed,无法保存快速开始：网络或服务暂时不可用，已恢复上次保存的入口。请稍后重试。,Could not save quick start: the network or service is temporarily unavailable. The last saved entries were restored. Try again shortly.,No se pudo guardar el inicio rápido: la red o el servicio no está disponible. Se restauraron los últimos accesos guardados. Inténtelo de nuevo en un momento.,無法保存快速開始：網絡或服務暫時不可用，已恢復上次保存的入口。請稍後重試。
+root.home.quick-start.editor.search,搜索入口…,Search entries…,Buscar accesos…,搜索入口…
+root.home.quick-start.editor.section-description,选择并排序首页“快速开始”显示的入口，只影响你的账号。,Choose and order the entries shown in Home quick start. This affects only your account.,Elija y ordene los accesos que se muestran en el inicio rápido. Solo afecta a su cuenta.,選擇並排序首頁“快速開始”顯示的入口，隻影響你的賬號。
+root.home.quick-start.editor.section-title,首页快速开始,Home quick start,Inicio rápido,首頁快速開始
+root.home.quick-start.editor.selected,已选入口,Selected entries,Accesos seleccionados,已選入口
+root.home.quick-start.editor.selected-empty,还没有常用入口，从左侧列表添加。,No pinned entries yet. Add them from the list on the left.,Aún no hay accesos fijados. Agréguelos desde la lista de la izquierda.,還沒有常用入口，從左側列表添加。
+root.home.quick-start.editor.session,无法保存快速开始：登录状态已变化。请重新登录后再试。,Could not save quick start: your session changed. Sign in again and retry.,No se pudo guardar el inicio rápido: su sesión cambió. Inicie sesión de nuevo e inténtelo otra vez.,無法保存快速開始：登錄狀態已變化。請重新登錄後再試。
+root.home.quick-start.editor.unavailable,不可用入口,Unavailable entry,Acceso no disponible,不可用入口
+root.home.quick-start.editor.updated,已更新首页快速开始,Home quick start updated,Inicio rápido actualizado,已更新首頁快速開始
+root.home.quick-start.editor.updated-detail,首页按新的顺序显示这些入口。,Home now shows these entries in the new order.,El inicio ya muestra estos accesos en el nuevo orden.,首頁按新的順序顯示這些入口。
+root.home.quick-start.empty-guide,还没有常用入口，点击“配置”添加。,No pinned entries yet. Select “Configure” to add some.,Aún no hay accesos fijados. Pulse “Configurar” para agregarlos.,還沒有常用入口，點擊“配置”添加。
+root.home.quick-start.error,快速开始加载失败：网络或服务暂时不可用。,Quick start failed to load: the network or service is temporarily unavailable.,No se pudo cargar el inicio rápido: la red o el servicio no está disponible.,快速開始加載失敗：網絡或服務暫時不可用。
+root.home.quick-start.retry,重试,Retry,Reintentar,重試
+root.home.refresh,刷新,Refresh,Actualizar,刷新
+root.home.retry,重试,Retry,Reintentar,重試
+root.home.scope.mine,我的,Mine,Míos,我的
+root.home.scope.team,团队,Team,Equipo,團隊
+root.home.scope.unassigned,未分配,Unassigned,Sin asignar,未分配
+root.home.showing,显示{count}/{total}项,Showing {count} of {total},Mostrando {count} de {total},顯示{count}/{total}項
+root.home.source-error,{source}的工作暂时无法加载。,Work from {source} is temporarily unavailable.,El trabajo de {source} no está disponible temporalmente.,{source}的工作暫時無法加載。
+root.home.tab.quick-start,快速开始,Quick start,Inicio rápido,快速開始
+root.home.title,首页,Home,Inicio,首頁
+root.home.today-work,今日工作,Today's work,Trabajo de hoy,今日工作
+root.home.value.unavailable,—,—,—,—
+root.home.work-empty,当前范围没有待处理工作。,No pending work in this scope.,No hay trabajo pendiente en este alcance.,當前範圍沒有待處理工作。
+root.home.workspaces,工作区,Workspaces,Espacios de trabajo,工作區
+root.i18n.status.column.accepted,采用,Accepted,Aceptados,採用
+root.i18n.status.column.chain,回退链,Fallback chain,Cadena de respaldo,回退鏈
+root.i18n.status.column.coverage,翻译覆盖,Translation coverage,Cobertura de traducción,翻譯覆蓋
+root.i18n.status.column.keys,key 数,Keys,Claves,key 數
+root.i18n.status.column.locale,语言,Language,Idioma,語言
+root.i18n.status.column.module,Module,Module,Módulo,Module
+root.i18n.status.column.name,名称,Name,Nombre,名稱
+root.i18n.status.column.rejected,拒绝,Rejected,Rechazados,拒絕
+root.i18n.status.column.stale,过期,Stale,Desactualizados,過期
+root.i18n.status.coverage,{translated} / {total},{translated} / {total},{translated} / {total},{translated} / {total}
+root.i18n.status.description,业务译文由各 Module 与语言包注册，Client 按当前语言加载对应的资源包。,Modules and language packs register translations; the Client loads the bundle of the current language.,Los módulos y paquetes de idioma registran traducciones; Client carga el paquete del idioma actual.,業務譯文由各 Module 與語言包註冊，Client 按當前語言加載對應的資源包。
+root.i18n.status.keys,消息 key,Message keys,Claves de mensajes,消息 key
+root.i18n.status.local-modules,本机 catalog,Local catalogs,Catálogos locales,本機 catalog
+root.i18n.status.locale,当前语言,Current language,Idioma actual,當前語言
+root.i18n.status.locales,界面语言,Interface languages,Idiomas de la interfaz,界面語言
+root.i18n.status.modules,已注册 Module,Registered Modules,Módulos registrados,已註冊 Module
+root.i18n.status.packs,语言包,Language packs,Paquetes de idioma,語言包
+root.i18n.status.packs-empty,当前部署使用内置语言。,This deployment uses the built-in languages.,Este despliegue usa los idiomas integrados.,當前部署使用內置語言。
+root.i18n.status.revision,字典 revision,Catalog revision,Revisión del catálogo,字典 revision
+root.i18n.status.sync,宿主同步状态,Host synchronization,Sincronización con el host,宿主同步狀態
+root.i18n.status.sync-ok,正常,Ready,Lista,正常
+root.i18n.status.title,语言资源状态,Language resource status,Estado de recursos de idioma,語言資源狀態
+root.localization.filter.all,全部,All,Todas,全部
+root.localization.filter.missing,缺失,Missing,Faltantes,缺失
+root.localization.filter.stale,待更新,Outdated,Desactualizadas,待更新
+root.localization.filter.translated,已翻译,Translated,Traducidas,已翻譯
+root.localization.nav.workbench,翻译工作台,Translation workbench,Mesa de traducción,翻譯工作臺
+root.localization.notification.title,翻译,Translations,Traducciones,翻譯
+root.localization.status.missing,缺失,Missing,Faltante,缺失
+root.localization.status.stale,待更新,Outdated,Desactualizada,待更新
+root.localization.status.translated,已翻译,Translated,Traducida,已翻譯
+root.localization.translate.button,翻译,Translate,Traducir,翻譯
+root.localization.translate.cancel,取消,Cancel,Cancelar,取消
+root.localization.translate.discard-confirm,放弃修改,Discard changes,Descartar cambios,放棄修改
+root.localization.translate.discard-message,关闭后将放弃未保存的修改。,Closing discards the changes you have not saved.,Al cerrar se descartan los cambios que no guardaste.,關閉後將放棄未保存的修改。
+root.localization.translate.discard-title,未保存的译文,Unsaved translations,Traducciones sin guardar,未保存的譯文
+root.localization.translate.hint,留空的语言显示原文或回退语言的译文。,Languages left empty show the source text or a fallback translation.,Los idiomas vacíos muestran el texto original o la traducción de respaldo.,留空的語言顯示原文或回退語言的譯文。
+root.localization.translate.keep-editing,继续编辑,Keep editing,Seguir editando,繼續編輯
+root.localization.translate.load-failed,译文加载失败。,Could not load the translations.,No se pudieron cargar las traducciones.,譯文加載失敗。
+root.localization.translate.missing,该资源尚未同步到翻译服务，请稍后再试。,This record has not reached the translation service yet. Please try again shortly.,Este registro aún no llega al servicio de traducción. Inténtalo de nuevo en unos momentos.,該資源尚未同步到翻譯服務，請稍後再試。
+root.localization.translate.save,保存,Save,Guardar,保存
+root.localization.translate.save-failed,译文保存失败。,Could not save the translations.,No se pudieron guardar las traducciones.,譯文保存失敗。
+root.localization.translate.saved,译文已保存。,Translation saved.,Traducción guardada.,譯文已保存。
+root.localization.translate.source,原文,Source,Original,原文
+root.localization.translate.source-changed,原文已被修改，已载入最新内容，请核对后重新保存。,The source text changed. The latest version is loaded; please review and save again.,El texto original cambió. Se cargó la versión más reciente; revísala y guarda de nuevo.,原文已被修改，已載入最新內容，請覈對後重新保存。
+root.localization.translate.stale,原文已修改，请核对此译文；保存后视为已更新。,The source text changed. Review this translation; saving marks it as up to date.,El texto original cambió. Revisa esta traducción; al guardarla queda actualizada.,原文已修改，請覈對此譯文；保存後視爲已更新。
+root.localization.translate.title,翻译：{source},Translate: {source},Traducir: {source},翻譯：{source}
+root.localization.translate.too-long,最多 {max} 个字符。,At most {max} characters.,Máximo {max} caracteres.,最多 {max} 個字符。
+root.localization.workbench.actions,操作,Actions,Acciones,操作
+root.localization.workbench.close,关闭,Close,Cerrar,關閉
+root.localization.workbench.coverage,已翻译 {translated} / {total} · 待更新 {stale},Translated {translated} / {total} · Outdated {stale},Traducidas {translated} / {total} · Desactualizadas {stale},已翻譯 {translated} / {total} · 待更新 {stale}
+root.localization.workbench.description,选择文案类别与目标语言，补充缺失译文并更新原文已修改的译文。,"Choose a text type and a target language, fill in missing translations and update those whose source changed.","Elige un tipo de texto y un idioma de destino, completa las traducciones faltantes y actualiza las que tienen el texto original modificado.",選擇文案類別與目標語言，補充缺失譯文並更新原文已修改的譯文。
+root.localization.workbench.domains,文案类别,Text types,Tipos de texto,文案類別
+root.localization.workbench.empty-domains,暂无可翻译的文案。具备商品、支付方式等资料的读取权限后，对应文案会出现在这里。,No text to translate yet. Texts appear here once you can read records such as products or payment methods.,Aún no hay textos para traducir. Aparecerán aquí cuando puedas consultar registros como productos o métodos de pago.,暫無可翻譯的文案。具備商品、支付方式等資料的讀取權限後，對應文案會出現在這裏。
+root.localization.workbench.empty-entries,没有符合条件的条目。,No matching entries.,No hay entradas que coincidan.,沒有符合條件的條目。
+root.localization.workbench.export,导出 CSV,Export CSV,Exportar CSV,導出 CSV
+root.localization.workbench.export-failed,导出失败。,Export failed.,No se pudo exportar.,導出失敗。
+root.localization.workbench.export-too-large,当前筛选结果共 {total} 条，超过单次导出上限 {max} 条，请缩小筛选范围后再导出。,"The current filter matches {total} entries, more than the export limit of {max}. Narrow the filter and export again.","El filtro actual incluye {total} entradas, más que el límite de exportación de {max}. Ajusta el filtro y vuelve a exportar.",當前篩選結果共 {total} 條，超過單次導出上限 {max} 條，請縮小篩選範圍後再導出。
+root.localization.workbench.import,导入 CSV,Import CSV,Importar CSV,導入 CSV
+root.localization.workbench.import-failed,导入失败。,Import failed.,No se pudo importar.,導入失敗。
+root.localization.workbench.import-invalid-file,文件格式无效：需要包含 resource_ref、source、translation 三列的 CSV。,"Invalid file: a CSV with the columns resource_ref, source and translation is required.","Archivo no válido: se requiere un CSV con las columnas resource_ref, source y translation.",文件格式無效：需要包含 resource_ref、source、translation 三列的 CSV。
+root.localization.workbench.import-line,第 {line} 行,Line {line},Línea {line},第 {line} 行
+root.localization.workbench.import-reason.denied,无写入权限,No write permission,Sin permiso de escritura,無寫入權限
+root.localization.workbench.import-reason.empty,译文为空,Empty translation,Traducción vacía,譯文爲空
+root.localization.workbench.import-reason.invalid,内容无效,Invalid content,Contenido no válido,內容無效
+root.localization.workbench.import-reason.source-changed,原文已变化,Source text changed,El texto original cambió,原文已變化
+root.localization.workbench.import-reason.unknown-resource,资源不存在,Resource not found,El recurso no existe,資源不存在
+root.localization.workbench.import-result,已写入 {applied} 条，未变化 {unchanged} 条，跳过 {skipped} 条。,"{applied} written, {unchanged} unchanged, {skipped} skipped.","{applied} escritas, {unchanged} sin cambios, {skipped} omitidas.",已寫入 {applied} 條，未變化 {unchanged} 條，跳過 {skipped} 條。
+root.localization.workbench.import-skipped,跳过的行,Skipped rows,Filas omitidas,跳過的行
+root.localization.workbench.import-title,导入结果,Import result,Resultado de la importación,導入結果
+root.localization.workbench.import-too-large,单次导入至多 {max} 行、900 KB，请拆分文件后分批导入。,An import holds at most {max} rows and 900 KB. Split the file and import it in parts.,Cada importación admite como máximo {max} filas y 900 KB. Divide el archivo e impórtalo por partes.,單次導入至多 {max} 行、900 KB，請拆分文件後分批導入。
+root.localization.workbench.line,行号,Line,Línea,行號
+root.localization.workbench.load-failed,条目加载失败。,Could not load the entries.,No se pudieron cargar las entradas.,條目加載失敗。
+root.localization.workbench.locale,目标语言,Target language,Idioma de destino,目標語言
+root.localization.workbench.reason,原因,Reason,Motivo,原因
+root.localization.workbench.resource,资源,Resource,Recurso,資源
+root.localization.workbench.save,保存,Save,Guardar,保存
+root.localization.workbench.save-failed,译文保存失败。,Could not save the translation.,No se pudo guardar la traducción.,譯文保存失敗。
+root.localization.workbench.search,搜索原文或译文,Search source or translation,Buscar texto original o traducción,搜索原文或譯文
+root.localization.workbench.source,原文,Source,Original,原文
+root.localization.workbench.source-changed,原文已被修改，列表已刷新，请核对后重新填写。,The source text changed and the list was refreshed. Please review and enter the translation again.,El texto original cambió y la lista se actualizó. Revísalo e ingresa la traducción de nuevo.,原文已被修改，列表已刷新，請覈對後重新填寫。
+root.localization.workbench.status,状态,Status,Estado,狀態
+root.localization.workbench.title,翻译工作台,Translation workbench,Mesa de traducción,翻譯工作臺
+root.localization.workbench.translation,译文,Translation,Traducción,譯文
+root.localization.workbench.unsaved,有未保存的译文。,Some translations are not saved.,Hay traducciones sin guardar.,有未保存的譯文。
+root.localization.workspace.description,为商品名称、分类、支付方式等业务文本维护各语言译文。,"Maintain translations of business text such as product names, categories and payment methods.","Mantén las traducciones de textos del negocio como nombres de productos, categorías y métodos de pago.",爲商品名稱、分類、支付方式等業務文本維護各語言譯文。
+root.localization.workspace.title,翻译,Translations,Traducciones,翻譯
+root.manuals.access.ops.description,允许阅读帮助中心内的技术维护手册,Allows reading the maintenance manual in the Help Center,Permite leer el manual de mantenimiento en el Centro de ayuda,允許閱讀幫助中心內的技術維護手冊
+root.manuals.access.ops.label,阅读技术维护手册,Read the maintenance manual,Leer el manual de mantenimiento,閱讀技術維護手冊
+root.manuals.manual.no-chapters,该手册暂无章节。,This manual has no chapters yet.,Este manual aún no tiene capítulos.,該手冊暫無章節。
+root.manuals.manual.ops.title,Echoo 技术维护手册,Echoo Maintenance Manual,Manual de mantenimiento de Echoo,Echoo 技術維護手冊
+root.manuals.manual.user.title,Echoo 用户手册,Echoo User Manual,Manual de usuario de Echoo,Echoo 用戶手冊
+root.manuals.nav.ops,技术维护手册,Maintenance manual,Manual de mantenimiento,技術維護手冊
+root.manuals.nav.user,用户手册,User manual,Manual de usuario,用戶手冊
+root.manuals.navigation.section.help,帮助与手册,Help and manuals,Ayuda y manuales,幫助與手冊
+root.manuals.outline.jump,跳转到「{heading}」,Jump to “{heading}”,Saltar a «{heading}»,跳轉到「{heading}」
+root.manuals.outline.title,本页目录,On this page,En esta página,本頁目錄
+root.manuals.page.ops.title,技术维护手册,Maintenance manual,Manual de mantenimiento,技術維護手冊
+root.manuals.page.title,帮助中心,Help Center,Centro de ayuda,幫助中心
+root.manuals.page.user.title,用户手册,User manual,Manual de usuario,用戶手冊
+root.manuals.print.back,返回阅读,Back to reading,Volver a la lectura,返回閱讀
+root.manuals.print.button,打印,Print,Imprimir,打印
+root.manuals.print.contents,目录,Contents,Contenido,目錄
+root.manuals.print.hint,在打印对话框中选择「另存为 PDF」即可导出整本手册。,Choose “Save as PDF” in the print dialog to export the whole manual.,Elija “Guardar como PDF” en el diálogo de impresión para exportar el manual completo.,在打印對話框中選擇「另存爲 PDF」即可導出整本手冊。
+root.manuals.reader.next,下一章,Next chapter,Capítulo siguiente,下一章
+root.manuals.reader.previous,上一章,Previous chapter,Capítulo anterior,上一章
+root.manuals.reader.print,打印整本,Print whole manual,Imprimir manual completo,打印整本
+root.manuals.reader.print-aria,打开整本打印视图,Open the whole-manual print view,Abrir la vista de impresión completa,打開整本打印視圖
+root.manuals.search.empty,没有匹配的章节。,No matching chapters.,No hay capítulos que coincidan.,沒有匹配的章節。
+root.manuals.search.placeholder,搜索本手册…,Search this manual…,Buscar en este manual…,搜索本手冊…
+root.manuals.search.results,命中 {count} 章,{count} chapters matched,{count} capítulos coinciden,命中 {count} 章
+root.manuals.top,回到顶部,Back to top,Volver arriba,回到頂部
+root.manuals.workspace.description,用户手册与技术维护手册,User and maintenance manuals,Manuales de usuario y de mantenimiento,用戶手冊與技術維護手冊
+root.manuals.workspace.title,帮助中心,Help Center,Centro de ayuda,幫助中心
+root.measurement.action.unit-maintain.description,新增单位、修改单位名称与别名、停用或启用单位。,"Add units, rename units and aliases, deactivate or reactivate units.","Agregar unidades, cambiar nombres y alias, desactivar o reactivar unidades.",新增單位、修改單位名稱與別名、停用或啓用單位。
+root.measurement.action.unit-maintain.label,维护计量单位,Maintain units of measure,Mantener unidades de medida,維護計量單位
+root.measurement.category.area,面积,Area,Superficie,面積
+root.measurement.category.count,计数,Count,Conteo,計數
+root.measurement.category.length,长度,Length,Longitud,長度
+root.measurement.category.mass,重量,Weight,Peso,重量
+root.measurement.category.time,时间,Time,Tiempo,時間
+root.measurement.category.volume,体积,Volume,Volumen,體積
+root.measurement.dialog.aliases-error,最多添加10个别名，每个别名为1至40个字符。,"Add up to 10 aliases, each with 1–40 characters.",Agrega hasta 10 alias de 1 a 40 caracteres cada uno.,最多添加10個別名，每個別名爲1至40個字符。
+root.measurement.dialog.aliases-placeholder,输入后按回车添加,Type and press Enter,Escribe y pulsa Intro,輸入後按回車添加
+root.measurement.dialog.cancel,取消,Cancel,Cancelar,取消
+root.measurement.dialog.category-hint,类别、换算与最大精度保存后不能修改。,"Category, conversion and precision cannot be changed after saving.","La categoría, la conversión y la precisión no se pueden cambiar después de guardar.",類別、換算與最大精度保存後不能修改。
+root.measurement.dialog.conflict-help,你的输入已保留。载入最新版本后再编辑。,Your input has been kept. Load the latest version before editing again.,Se conservó lo que escribiste. Carga la versión más reciente antes de volver a editar.,你的輸入已保留。載入最新版本後再編輯。
+root.measurement.dialog.create-title,新增单位,New unit,Nueva unidad,新增單位
+root.measurement.dialog.edit-title,编辑单位 · {unit},Edit unit · {unit},Editar unidad · {unit},編輯單位 · {unit}
+root.measurement.dialog.factor,换算,Conversion,Conversión,換算
+root.measurement.dialog.factor-prefix,1 {unit} =,1 {unit} =,1 {unit} =,1 {unit} =
+root.measurement.dialog.max-scale-hint,以该单位计量时最多允许的小数位；0 表示只能是整数。,Largest number of decimals allowed for quantities in this unit; 0 means whole numbers only.,Máximo de decimales permitidos en esta unidad; 0 significa solo enteros.,以該單位計量時最多允許的小數位；0 表示只能是整數。
+root.measurement.dialog.name-error,请填写1至40个字符的单位名称。,Enter a unit name of 1–40 characters.,Indica un nombre de unidad de 1 a 40 caracteres.,請填寫1至40個字符的單位名稱。
+root.measurement.dialog.name-placeholder,例如 瓶、斤、包,"e.g. bottle, bag, pack","p. ej. botella, bolsa, paquete",例如 瓶、斤、包
+root.measurement.dialog.reload,载入最新,Load latest,Cargar versión reciente,載入最新
+root.measurement.dialog.save,保存,Save,Guardar,保存
+root.measurement.dialog.saved,单位已保存。,Unit saved.,Unidad guardada.,單位已保存。
+root.measurement.dialog.saved-unit,已保存单位“{unit}”。,Unit “{unit}” saved.,Unidad «{unit}» guardada.,已保存單位“{unit}”。
+root.measurement.dialog.symbol-placeholder,可选，例如 kg,"Optional, e.g. kg","Opcional, p. ej. kg",可選，例如 kg
+root.measurement.dialog.system-hint,系统单位的名称与符号随系统语言显示，可以补充别名。,System unit names and symbols follow the interface language; you can add aliases.,El nombre y el símbolo de las unidades del sistema siguen el idioma de la interfaz; puedes agregar alias.,系統單位的名稱與符號隨系統語言顯示，可以補充別名。
+root.measurement.error.failed,保存失败，请稍后重试。,Could not save. Please try again.,No se pudo guardar. Inténtalo de nuevo.,保存失敗，請稍後重試。
+root.measurement.error.forbidden,没有维护计量单位的权限。,You are not allowed to maintain units of measure.,No tienes permiso para mantener unidades de medida.,沒有維護計量單位的權限。
+root.measurement.error.unit-factor-invalid,请填写大于 0 的换算数量，最多 12 位小数。,Enter a conversion greater than 0 with at most 12 decimals.,Indica una conversión mayor que 0 con un máximo de 12 decimales.,請填寫大於 0 的換算數量，最多 12 位小數。
+root.measurement.error.unit-inactive,单位已停用。,The unit is inactive.,La unidad está inactiva.,單位已停用。
+root.measurement.error.unit-name-duplicate,同一类别已有相同的名称或别名。,Another unit in this category already uses this name or alias.,Otra unidad de esta categoría ya usa ese nombre o alias.,同一類別已有相同的名稱或別名。
+root.measurement.error.unit-not-found,单位不存在。,The unit does not exist.,La unidad no existe.,單位不存在。
+root.measurement.error.unit-revision-conflict,单位已被他人修改，请刷新后重试。,Someone else changed this unit. Refresh and try again.,Otra persona modificó esta unidad. Actualiza e inténtalo de nuevo.,單位已被他人修改，請刷新後重試。
+root.measurement.error.unit-scale-exceeded,数量精度超过该单位允许的小数位。,The precision exceeds the decimals this unit allows.,La precisión supera los decimales que permite esta unidad.,數量精度超過該單位允許的小數位。
+root.measurement.error.unit-system-readonly,系统单位只能修改别名。,Only aliases can be changed on system units.,En las unidades del sistema solo se pueden cambiar los alias.,系統單位只能修改別名。
+root.measurement.layered.base,{unit},{unit},{unit},{unit}
+root.measurement.layered.total,合计 {quantity} {unit},Total {quantity} {unit},Total {quantity} {unit},合計 {quantity} {unit}
+root.measurement.localization.unit,计量单位名称,Unit names,Nombres de unidades,計量單位名稱
+root.measurement.nav.units,单位,Units,Unidades,單位
+root.measurement.notification.title,计量单位,Units of measure,Unidades de medida,計量單位
+root.measurement.quantity.integer-only,只能输入整数。,Whole numbers only.,Solo números enteros.,只能輸入整數。
+root.measurement.quantity.invalid,请输入有效的数量。,Enter a valid quantity.,Indica una cantidad válida.,請輸入有效的數量。
+root.measurement.quantity.not-positive,数量须大于 0。,The quantity must be greater than 0.,La cantidad debe ser mayor que 0.,數量須大於 0。
+root.measurement.quantity.out-of-range,数量超出允许范围。,The quantity is out of range.,La cantidad está fuera del rango permitido.,數量超出允許範圍。
+root.measurement.quantity.scale-exceeded,最多 {scale}位小数。,At most {scale} decimals.,Máximo {scale} decimales.,最多 {scale}位小數。
+root.measurement.select.inactive,（已停用）,(inactive),(inactiva),（已停用）
+root.measurement.select.placeholder,选择单位,Select a unit,Selecciona una unidad,選擇單位
+root.measurement.unit.centimetre,厘米,Centimeter,Centímetro,釐米
+root.measurement.unit.day,天,Day,Día,天
+root.measurement.unit.gram,克,Gram,Gramo,克
+root.measurement.unit.hour,小时,Hour,Hora,小時
+root.measurement.unit.kilogram,千克,Kilogram,Kilogramo,千克
+root.measurement.unit.litre,升,Liter,Litro,升
+root.measurement.unit.metre,米,Meter,Metro,米
+root.measurement.unit.millilitre,毫升,Milliliter,Mililitro,毫升
+root.measurement.unit.minute,分钟,Minute,Minuto,分鐘
+root.measurement.unit.piece,件,Piece,Unidad,件
+root.measurement.unit.second,秒,Second,Segundo,秒
+root.measurement.unit.square-metre,平方米,Square meter,Metro cuadrado,平方米
+root.measurement.units.actions,操作,Actions,Acciones,操作
+root.measurement.units.activate,启用,Activate,Activar,啓用
+root.measurement.units.activate-unit,启用单位 · {unit},Activate unit · {unit},Activar unidad · {unit},啓用單位 · {unit}
+root.measurement.units.activated,已启用“{unit}”。,“{unit}” activated.,«{unit}» activada.,已啓用“{unit}”。
+root.measurement.units.active,启用,Active,Activa,啓用
+root.measurement.units.aliases,别名,Aliases,Alias,別名
+root.measurement.units.all-categories,全部类别,All categories,Todas las categorías,全部類別
+root.measurement.units.all-statuses,全部状态,All statuses,Todos los estados,全部狀態
+root.measurement.units.category,类别,Category,Categoría,類別
+root.measurement.units.clear-filters,清除筛选,Clear filters,Borrar filtros,清除篩選
+root.measurement.units.conversion,换算,Conversion,Conversión,換算
+root.measurement.units.conversion-value,1 {unit} = {factor} {base},1 {unit} = {factor} {base},1 {unit} = {factor} {base},1 {unit} = {factor} {base}
+root.measurement.units.count,共{count}个单位,Total: {count},Total: {count},共{count}個單位
+root.measurement.units.create,新增单位,New unit,Nueva unidad,新增單位
+root.measurement.units.deactivate,停用,Deactivate,Desactivar,停用
+root.measurement.units.deactivate-confirm,停用后，新的商品规格不能选择“{unit}”；已有商品、库存与单据照常显示。,"Once deactivated, new product variants cannot use “{unit}”. Existing products, stock and documents keep showing it.","Al desactivarla, las nuevas variantes no podrán usar «{unit}». Los productos, el inventario y los documentos existentes la siguen mostrando.",停用後，新的商品規格不能選擇“{unit}”；已有商品、庫存與單據照常顯示。
+root.measurement.units.deactivate-title,停用单位“{unit}”？,Deactivate unit “{unit}”?,¿Desactivar la unidad «{unit}»?,停用單位“{unit}”？
+root.measurement.units.deactivate-unit,停用单位 · {unit},Deactivate unit · {unit},Desactivar unidad · {unit},停用單位 · {unit}
+root.measurement.units.deactivated,已停用“{unit}”。,“{unit}” deactivated.,«{unit}» desactivada.,已停用“{unit}”。
+root.measurement.units.edit,编辑,Edit,Editar,編輯
+root.measurement.units.edit-unit,编辑单位 · {unit},Edit unit · {unit},Editar unidad · {unit},編輯單位 · {unit}
+root.measurement.units.empty,没有符合条件的单位。,No units match the filters.,Ninguna unidad coincide con los filtros.,沒有符合條件的單位。
+root.measurement.units.empty-help,新增店铺常用的单位，供商品、库存与单据使用。,"Add the units your shop uses for products, inventory and documents.","Agrega las unidades de tu tienda para productos, inventario y documentos.",新增店鋪常用的單位，供商品、庫存與單據使用。
+root.measurement.units.empty-title,还没有计量单位,No units yet,Aún no hay unidades,還沒有計量單位
+root.measurement.units.filter-label,筛选计量单位,Filter units of measure,Filtrar unidades de medida,篩選計量單位
+root.measurement.units.inactive,停用,Inactive,Inactiva,停用
+root.measurement.units.independent,独立计数,Counted on its own,Se cuenta por sí sola,獨立計數
+root.measurement.units.load-failed,单位目录加载失败。,Could not load the units.,No se pudieron cargar las unidades.,單位目錄加載失敗。
+root.measurement.units.load-help,暂时无法获取单位目录，请检查连接后重试。,The unit catalog is unavailable. Check your connection and try again.,El catálogo no está disponible. Revisa la conexión e inténtalo de nuevo.,暫時無法獲取單位目錄，請檢查連接後重試。
+root.measurement.units.max-scale,最大精度,Max. precision,Precisión máx.,最大精度
+root.measurement.units.name,名称,Name,Nombre,名稱
+root.measurement.units.no-results-help,试试其他名称、符号或别名，或清除筛选条件。,"Try another name, symbol or alias, or clear the filters.","Prueba otro nombre, símbolo o alias, o borra los filtros.",試試其他名稱、符號或別名，或清除篩選條件。
+root.measurement.units.read-only,你可以查看单位目录；维护单位需要“维护计量单位”权限。,You can view the units; maintaining them requires the “Maintain units of measure” permission.,Puedes ver las unidades; para mantenerlas necesitas el permiso “Mantener unidades de medida”.,你可以查看單位目錄；維護單位需要“維護計量單位”權限。
+root.measurement.units.refresh,刷新,Refresh,Actualizar,刷新
+root.measurement.units.refresh-failed,刷新失败，当前显示的是上次加载的单位。,Refresh failed. The previously loaded units are still shown.,No se pudo actualizar. Se muestran las unidades cargadas anteriormente.,刷新失敗，當前顯示的是上次加載的單位。
+root.measurement.units.remove-category,移除类别筛选,Remove category filter,Quitar filtro de categoría,移除類別篩選
+root.measurement.units.remove-search,移除搜索条件,Remove search filter,Quitar filtro de búsqueda,移除搜索條件
+root.measurement.units.remove-status,移除状态筛选,Remove status filter,Quitar filtro de estado,移除狀態篩選
+root.measurement.units.retry,重试,Retry,Reintentar,重試
+root.measurement.units.scale-integer,整数,Whole numbers,Enteros,整數
+root.measurement.units.scale-one,1位小数,1 decimal,1 decimal,1位小數
+root.measurement.units.scale-value,{scale}位小数,{scale} decimals,{scale} decimales,{scale}位小數
+root.measurement.units.search,搜索名称、符号或别名,"Search name, symbol or alias","Buscar nombre, símbolo o alias",搜索名稱、符號或別名
+root.measurement.units.status,状态,Status,Estado,狀態
+root.measurement.units.symbol,符号,Symbol,Símbolo,符號
+root.measurement.units.system,系统,System,Sistema,系統
+root.measurement.units.title,计量单位,Units of measure,Unidades de medida,計量單位
+root.measurement.workspace.description,维护全店共用的单位：件、千克、瓶、斤等，供商品、仓储、进货与销售选择。,"Maintain the units shared across the store (piece, kilogram, bottle…) for products, stock, purchasing and sales.","Mantén las unidades comunes de la tienda (unidad, kilogramo, botella…) para productos, inventario, compras y ventas.",維護全店共用的單位：件、千克、瓶、斤等，供商品、倉儲、進貨與銷售選擇。
+root.measurement.workspace.title,计量单位,Units of measure,Unidades de medida,計量單位
+root.navigation.access.description,修改所有账号共享的导航大区、分组、排序与入口展示。,"Change navigation areas, groups, ordering and entry presentation shared by all accounts.","Cambiar las áreas, los grupos, el orden y los accesos de navegación compartidos por todas las cuentas.",修改所有賬號共享的導航大區、分組、排序與入口展示。
+root.navigation.access.write,编辑全局导航,Edit shared navigation,Editar navegación compartida,編輯全局導航
+root.navigation.add-group,新建分组,Add group,Agregar grupo,新建分組
+root.navigation.area,所属大区,Area,Área,所屬大區
+root.navigation.cancel,取消编辑,Cancel editing,Cancelar edición,取消編輯
+root.navigation.conflict,无法保存导航布局：其他人已修改布局。草稿已保留，请取消编辑加载最新版本后再调整。,"Could not save the navigation layout: someone else changed it. Your draft is kept. Cancel editing to load the latest version, then adjust again.",No se pudo guardar el diseño de navegación: otra persona lo cambió. Se conservó el borrador. Cancele la edición para cargar la versión más reciente y ajústelo de nuevo.,無法保存導航佈局：其他人已修改佈局。草稿已保留，請取消編輯加載最新版本後再調整。
+root.navigation.delete-group,删除分组,Delete group,Eliminar grupo,刪除分組
+root.navigation.description,按业务分组查找功能，布局由全局共享。,Find functions by group. This layout is shared.,Busque funciones por grupo. Este diseño es compartido.,按業務分組查找功能，佈局由全局共享。
+root.navigation.down,下移,Move down,Bajar,下移
+root.navigation.drag,拖动排序,Drag to reorder,Arrastrar para ordenar,拖動排序
+root.navigation.drop-hint,拖入入口，或在下方待归类中选择此分组。,Drop entries here or assign them using the selectors below.,Suelte accesos aquí o asígnelos con los selectores de abajo.,拖入入口，或在下方待歸類中選擇此分組。
+root.navigation.edit,编辑布局,Edit layout,Editar diseño,編輯佈局
+root.navigation.edit-description,编辑全局导航布局,Edit the shared navigation layout,Editar la navegación compartida,編輯全局導航佈局
+root.navigation.edit-help,拖动手柄或使用上下移与分组选择调整顺序。分组决定入口的大区。删除分组后入口回到待归类；不可见入口配置保留。隐藏应用于侧栏、搜索与首页目录，访问权限由权限系统管理。,"Drag handles or use move buttons and group selectors. Groups determine the area. Deleting a group returns its entries to Uncategorized. Unavailable entry settings are retained. Hiding applies to the sidebar, search and home directory. Access is governed by permissions.","Arrastre las asas o use los botones y selectores de grupo. Los grupos determinan el área. Al eliminar un grupo, sus accesos vuelven a Sin clasificar. Se conservan los ajustes de accesos no disponibles. Ocultar se aplica a la barra lateral, la búsqueda y el directorio de inicio. Los permisos controlan el acceso.",拖動手柄或使用上下移與分組選擇調整順序。分組決定入口的大區。刪除分組後入口回到待歸類；不可見入口配置保留。隱藏應用於側欄、搜索與首頁目錄，訪問權限由權限系統管理。
+root.navigation.empty,没有匹配的功能入口,No matching features,No hay funciones que coincidan,沒有匹配的功能入口
+root.navigation.global-notice,保存后对所有账号生效，各账号仍只看到有权限的入口。,Saving applies to all accounts. Each account only sees permitted entries.,Los cambios se aplican a todas las cuentas. Cada cuenta solo ve los accesos permitidos.,保存後對所有賬號生效，各賬號仍只看到有權限的入口。
+root.navigation.group-name,分组名称（必填）,Group name (required),Nombre del grupo (obligatorio),分組名稱（必填）
+root.navigation.group.currency-tax,货币与税务,Currency and tax,Monedas e impuestos,貨幣與稅務
+root.navigation.group.fulfillment,仓储,Warehouse,Almacén,倉儲
+root.navigation.group.help,帮助与手册,Help and manuals,Ayuda y manuales,幫助與手冊
+root.navigation.group.identity,账号与权限,Accounts and permissions,Cuentas y permisos,賬號與權限
+root.navigation.group.operations,运行与维护,Operations and maintenance,Operaciones y mantenimiento,運行與維護
+root.navigation.group.procurement,采购,Purchasing,Compras,採購
+root.navigation.group.products,商品,Products,Productos,商品
+root.navigation.group.system,系统管理,System management,Administración del sistema,系統管理
+root.navigation.group.transactions,销售,Sales,Ventas,銷售
+root.navigation.group.work,工作与资料,Work and resources,Trabajo y recursos,工作與資料
+root.navigation.group.workflow,工作流,Workflow,Flujos de trabajo,工作流
+root.navigation.hide,隐藏,Hide,Ocultar,隱藏
+root.navigation.invalid,无法保存导航布局：有分组缺少名称或超出数量上限。请为每个自定义分组至少填写一种语言的名称。,Could not save the navigation layout: a group has no name or a limit was exceeded. Give each custom group a name in at least one language.,No se pudo guardar el diseño de navegación: hay un grupo sin nombre o se superó un límite. Asigne a cada grupo personalizado un nombre en al menos un idioma.,無法保存導航佈局：有分組缺少名稱或超出數量上限。請爲每個自定義分組至少填寫一種語言的名稱。
+root.navigation.load-error,导航布局加载失败：网络或服务暂时不可用。,The navigation layout failed to load: the network or service is temporarily unavailable.,No se pudo cargar el diseño de navegación: la red o el servicio no está disponible.,導航佈局加載失敗：網絡或服務暫時不可用。
+root.navigation.move-to,移动“{entry}”到分组,Move “{entry}” to group,Mover “{entry}” al grupo,移動“{entry}”到分組
+root.navigation.name-language,分组名称语言,Group name language,Idioma del nombre del grupo,分組名稱語言
+root.navigation.no-write,你没有编辑导航布局的权限，请联系管理员。,You do not have permission to edit the navigation layout. Ask an administrator for access.,No tiene permiso para editar el diseño de navegación. Solicite acceso a un administrador.,你沒有編輯導航佈局的權限，請聯繫管理員。
+root.navigation.other,待归类,Uncategorized,Sin clasificar,待歸類
+root.navigation.permission-error,暂时无法确认编辑权限：网络或服务暂时不可用。请重新加载页面后再试。,Editing permission could not be checked: the network or service is temporarily unavailable. Reload the page and try again.,No se pudo verificar el permiso de edición: la red o el servicio no está disponible. Vuelva a cargar la página e inténtelo de nuevo.,暫時無法確認編輯權限：網絡或服務暫時不可用。請重新加載頁面後再試。
+root.navigation.pin,置顶,Pin,Fijar,置頂
+root.navigation.pinned,常用入口,Pinned shortcuts,Accesos fijados,常用入口
+root.navigation.reset,恢复默认（保存后生效）,Restore defaults (save to apply),Restaurar valores predeterminados (guardar para aplicar),恢復默認（保存後生效）
+root.navigation.retry,重试,Retry,Reintentar,重試
+root.navigation.save,保存全局布局,Save shared layout,Guardar diseño compartido,保存全局佈局
+root.navigation.save-error,无法保存导航布局：网络或服务暂时不可用，草稿已保留。请稍后重试。,Could not save the navigation layout: the network or service is temporarily unavailable. Your draft is kept. Try again shortly.,No se pudo guardar el diseño de navegación: la red o el servicio no está disponible. Se conservó el borrador. Inténtelo de nuevo en un momento.,無法保存導航佈局：網絡或服務暫時不可用，草稿已保留。請稍後重試。
+root.navigation.search,搜索功能…,Search functions…,Buscar funciones…,搜索功能…
+root.navigation.title,功能入口,Functions,Funciones,功能入口
+root.navigation.unnamed,未命名分组,Unnamed group,Grupo sin nombre,未命名分組
+root.navigation.up,上移,Move up,Subir,上移
+root.settings.access.read.description,读取当前部署的系统设置,Read system settings for this deployment,Leer la configuración de este despliegue,讀取當前部署的系統設置
+root.settings.access.read.label,查看系统设置,View system settings,Ver configuración del sistema,查看系統設置
+root.settings.access.write.description,修改当前部署的系统设置,Change system settings for this deployment,Modificar la configuración de este despliegue,修改當前部署的系統設置
+root.settings.access.write.label,管理系统设置,Manage system settings,Administrar configuración del sistema,管理系統設置
+root.settings.action.done,已完成{name},{name}: done,{name}: listo,已完成{name}
+root.settings.action.done-detail,操作已执行完毕。,The action has finished.,La acción terminó.,操作已執行完畢。
+root.settings.action.failed,无法执行此操作，请稍后重试,Could not run this action; try again shortly,No se pudo ejecutar la acción; inténtelo de nuevo en un momento,無法執行此操作，請稍後重試
+root.settings.audit.change.description,记录系统设置字段的安全差异,Records safe field changes to system settings,Registra cambios seguros en la configuración,記錄系統設置字段的安全差異
+root.settings.audit.change.title,系统设置已变更,System settings changed,Configuración del sistema modificada,系統設置已變更
+root.settings.audit.read.description,查看系统设置变更记录,View system settings change records,Ver registros de cambios de configuración,查看系統設置變更記錄
+root.settings.audit.read.label,查看设置审计,View settings audit,Ver auditoría de configuración,查看設置審計
+root.settings.choose,选择…,Choose…,Elegir…,選擇…
+root.settings.empty.description,安装提供系统设置的功能后，它们的设置会显示在这里。,Settings appear here once features that provide them are installed.,Las configuraciones aparecerán aquí cuando se instalen funciones que las ofrezcan.,安裝提供系統設置的功能後，它們的設置會顯示在這裏。
+root.settings.empty.title,还没有可配置的设置,No settings to configure yet,Aún no hay configuraciones disponibles,還沒有可配置的設置
+root.settings.failed,无法更新{section}：设置没有保存，已填写的内容仍保留。请稍后重试。,Could not update: {section}. The settings were not saved and your input is kept. Try again shortly.,No se pudo actualizar: {section}. La configuración no se guardó y sus datos se conservan. Inténtelo de nuevo en un momento.,無法更新{section}：設置沒有保存，已填寫的內容仍保留。請稍後重試。
+root.settings.field.default-locale,默认语言,Default language,Idioma predeterminado,默認語言
+root.settings.field.default-locale-description,新账户尚未选择个人语言时使用的界面语言。,Interface language used until a new account chooses its own.,Idioma de la interfaz que se usa hasta que una cuenta nueva elija el suyo.,新賬戶尚未選擇個人語言時使用的界面語言。
+root.settings.field.system-description,系统说明,System description,Descripción del sistema,系統說明
+root.settings.field.system-description-description,可选的部署说明，仅用于管理和识别。,An optional description used only for administration and identification.,Descripción opcional usada para administración e identificación.,可選的部署說明，僅用於管理和識別。
+root.settings.field.system-name,系统名称,System name,Nombre del sistema,系統名稱
+root.settings.field.system-name-description,用于系统内部可见的部署名称，不代表门店或业务组织。,"A deployment name visible inside the system, not a store or organization name.",Nombre interno del despliegue; no representa una tienda u organización.,用於系統內部可見的部署名稱，不代表門店或業務組織。
+root.settings.group.identity,系统身份,System identity,Identidad del sistema,系統身份
+root.settings.group.identity-caption,在系统内部显示的部署名称与说明。,The deployment name and description shown inside the system.,Nombre y descripción del despliegue que se muestran dentro del sistema.,在系統內部顯示的部署名稱與說明。
+root.settings.group.region,默认区域,Default region,Región predeterminada,默認區域
+root.settings.group.region-caption,新账户在设置个人偏好之前使用的区域设置。,Regional settings new accounts use before they set personal preferences.,Configuración regional que usan las cuentas nuevas antes de definir sus preferencias.,新賬戶在設置個人偏好之前使用的區域設置。
+root.settings.intro,管理整套系统的默认值与已安装功能的配置，修改影响所有用户。每一节单独更新，互不影响。,Manage system defaults and the configuration of installed features. Changes affect all users. Each section is updated on its own.,Administre los valores predeterminados del sistema y la configuración de las funciones instaladas. Los cambios afectan a todos los usuarios. Cada sección se actualiza por separado.,管理整套系統的默認值與已安裝功能的配置，修改影響所有用戶。每一節單獨更新，互不影響。
+root.settings.load-error,这一节的设置加载失败：网络或服务暂时不可用。,These settings failed to load: the network or service is temporarily unavailable.,No se pudo cargar esta configuración: la red o el servicio no está disponible.,這一節的設置加載失敗：網絡或服務暫時不可用。
+root.settings.locale.option,{name},{name},{name},{name}
+root.settings.nav.label,设置分类,Settings categories,Categorías de configuración,設置分類
+root.settings.nav.unsaved,有未保存的修改,Unsaved changes,Cambios sin guardar,有未保存的修改
+root.settings.navigation.section.configuration,基础配置,General configuration,Configuración general,基礎配置
+root.settings.personal.description,语言、外观与首页快速开始只影响你的账号，并同步到你登录的每个浏览器。选择后立即保存。,"Language, appearance and Home quick start affect only your account and follow it to every browser you sign in to. Changes are saved as soon as you make them.","El idioma, la apariencia y el inicio rápido solo afectan a su cuenta y la acompañan en cada navegador donde inicie sesión. Los cambios se guardan al instante.",語言、外觀與首頁快速開始隻影響你的賬號，並同步到你登錄的每個瀏覽器。選擇後立即保存。
+root.settings.personal.error.conflict,个人设置已在其他窗口修改：已刷新为最新值，请重新选择。,Personal settings changed in another window. The latest values are shown; choose again.,Los ajustes personales cambiaron en otra ventana. Se muestran los valores más recientes; elija de nuevo.,個人設置已在其他窗口修改：已刷新爲最新值，請重新選擇。
+root.settings.personal.error.load,个人设置加载失败：网络或服务暂时不可用，已保存的设置不受影响。,Personal settings failed to load: the network or service is temporarily unavailable. Your saved settings are not affected.,No se pudieron cargar los ajustes personales: la red o el servicio no está disponible. Sus ajustes guardados no se ven afectados.,個人設置加載失敗：網絡或服務暫時不可用，已保存的設置不受影響。
+root.settings.personal.error.locale,无法切换语言,Could not switch language,No se pudo cambiar el idioma,無法切換語言
+root.settings.personal.error.locale-detail,所选语言的资源暂时无法加载，界面继续使用当前语言。请稍后重试。,"The selected language is temporarily unavailable, so the interface keeps the current language. Try again shortly.",El idioma seleccionado no está disponible por ahora; la interfaz mantiene el idioma actual. Inténtelo de nuevo en un momento.,所選語言的資源暫時無法加載，界面繼續使用當前語言。請稍後重試。
+root.settings.personal.error.save,无法保存个人设置：网络或服务暂时不可用，已恢复上次保存的值。请稍后重试。,Could not save personal settings: the network or service is temporarily unavailable. The last saved value was restored. Try again shortly.,No se pudieron guardar los ajustes personales: la red o el servicio no está disponible. Se restauró el último valor guardado. Inténtelo de nuevo en un momento.,無法保存個人設置：網絡或服務暫時不可用，已恢復上次保存的值。請稍後重試。
+root.settings.personal.error.save-detail,网络或服务暂时不可用，已恢复上次保存的值。请稍后重试。,The network or service is temporarily unavailable. The last saved value was restored. Try again shortly.,La red o el servicio no está disponible. Se restauró el último valor guardado. Inténtelo de nuevo en un momento.,網絡或服務暫時不可用，已恢復上次保存的值。請稍後重試。
+root.settings.personal.error.save-title,无法保存个人设置,Could not save personal settings,No se pudieron guardar los ajustes personales,無法保存個人設置
+root.settings.personal.error.session,无法保存个人设置：登录状态已变化。请重新登录后再试。,Could not save personal settings: your session changed. Sign in again and retry.,No se pudieron guardar los ajustes personales: su sesión cambió. Inicie sesión de nuevo e inténtelo otra vez.,無法保存個人設置：登錄狀態已變化。請重新登錄後再試。
+root.settings.personal.locale-explicit,已为你的账号固定界面语言。,The interface language is fixed for your account.,El idioma de la interfaz está fijado para su cuenta.,已爲你的賬號固定界面語言。
+root.settings.personal.locale-system,跟随系统默认语言,Follow system default language,Seguir el idioma predeterminado del sistema,跟隨系統默認語言
+root.settings.personal.locale-system-active,跟随系统默认语言（当前为{locale}）,Following the system default language (currently {locale}),Sigue el idioma predeterminado del sistema (actualmente {locale}),跟隨系統默認語言（當前爲{locale}）
+root.settings.personal.menu,个人设置,Personal settings,Ajustes personales,個人設置
+root.settings.personal.navigation,个人设置分类,Personal settings categories,Categorías de ajustes personales,個人設置分類
+root.settings.personal.retry,重试,Retry,Reintentar,重試
+root.settings.personal.section.home,首页,Home,Inicio,首頁
+root.settings.personal.section.i18n,语言,Language,Idioma,語言
+root.settings.personal.section.i18n-description,界面显示的语言。未选择时跟随系统设置的默认语言。,"The interface language. When not set, it follows the system default language.","Idioma de la interfaz. Si no se define, sigue el idioma predeterminado del sistema.",界面顯示的語言。未選擇時跟隨系統設置的默認語言。
+root.settings.personal.section.ui,外观,Appearance,Apariencia,外觀
+root.settings.personal.section.ui-description,业务界面的明暗主题。未选择时跟随操作系统。,"The light or dark theme of the interface. When not set, it follows the operating system.","Tema claro u oscuro de la interfaz. Si no se define, sigue el sistema operativo.",業務界面的明暗主題。未選擇時跟隨操作系統。
+root.settings.personal.theme-explicit,已为你的账号固定外观主题。,The appearance theme is fixed for your account.,El tema de apariencia está fijado para su cuenta.,已爲你的賬號固定外觀主題。
+root.settings.personal.theme-system,跟随操作系统,Follow operating system,Seguir el sistema operativo,跟隨操作系統
+root.settings.personal.theme-system-active,跟随操作系统的明暗设置。,Following the operating system light or dark setting.,Sigue el ajuste claro u oscuro del sistema operativo.,跟隨操作系統的明暗設置。
+root.settings.personal.title,个人设置,Personal settings,Ajustes personales,個人設置
+root.settings.personal.updated-detail,只影响你的账号，并同步到你登录的其他浏览器。,This affects only your account and follows it to your other browsers.,Solo afecta a su cuenta y se aplica en sus otros navegadores.,隻影響你的賬號，並同步到你登錄的其他瀏覽器。
+root.settings.resource.empty,尚未选择,Nothing selected,Sin selección,尚未選擇
+root.settings.resource.system,系统设置,System settings,Configuración del sistema,系統設置
+root.settings.retry,重试,Retry,Reintentar,重試
+root.settings.revert,还原,Revert,Revertir,還原
+root.settings.section.basic,基本设置,Basic settings,Configuración básica,基本設置
+root.settings.section.basic-description,整套系统的名称、说明与默认语言。,"System name, description and default language.","Nombre, descripción e idioma predeterminado del sistema.",整套系統的名稱、說明與默認語言。
+root.settings.status.clean,没有修改,No changes,Sin cambios,沒有修改
+root.settings.status.dirty,有未保存的修改,Unsaved changes,Cambios sin guardar,有未保存的修改
+root.settings.status.saved,已更新,Updated,Actualizado,已更新
+root.settings.status.saving,正在更新…,Updating…,Actualizando…,正在更新…
+root.settings.title,系统设置,System settings,Configuración del sistema,系統設置
+root.settings.update,更新{section},Update: {section},Actualizar: {section},更新{section}
+root.settings.updated,已更新{section},{section} updated,Actualizado: {section},已更新{section}
+root.settings.updated-detail,新设置已对整套系统生效。,The new settings now apply to the whole system.,La nueva configuración ya se aplica a todo el sistema.,新設置已對整套系統生效。
+root.settings.validation.invalid,请输入有效的值,Enter a valid value,Indique un valor válido,請輸入有效的值
+root.settings.validation.number,请输入数字,Enter a number,Indique un número,請輸入數字
+root.settings.validation.range,必须在{min}到{max}之间,Must be between {min} and {max},Debe estar entre {min} y {max},必須在{min}到{max}之間
+root.settings.validation.required,必填项,Required,Campo obligatorio,必填項
+root.settings.validation.select,请选择一项,Select an option,Seleccione una opción,請選擇一項
+root.settings.workspace.description,管理整套系统的默认值与已安装功能的配置。,Manage system defaults and the configuration of installed features.,Administre los valores predeterminados del sistema y la configuración de las funciones instaladas.,管理整套系統的默認值與已安裝功能的配置。
+root.settings.workspace.title,设置,Settings,Configuración,設置
+root.ui.brand,ECHOOTEK,ECHOOTEK,ECHOOTEK,ECHOOTEK
+root.ui.discard.cancel,继续编辑,Keep editing,Seguir editando,繼續編輯
+root.ui.discard.confirm,放弃修改,Discard changes,Descartar cambios,放棄修改
+root.ui.discard.message,关闭后，这次的修改不会保存。,Your changes will not be saved.,Los cambios no se guardarán.,關閉後，這次的修改不會保存。
+root.ui.discard.title,放弃未保存的修改？,Discard unsaved changes?,¿Descartar los cambios sin guardar?,放棄未保存的修改？
+root.ui.doc-timeline.empty,还没有历史记录,No history yet,Aún no hay historial,還沒有歷史記錄
+root.ui.doc-timeline.label,单据历史,Document history,Historial del documento,單據歷史
+root.ui.editable-table.actions,操作,Actions,Acciones,操作
+root.ui.editable-table.add-row,添加一行,Add line,Agregar línea,添加一行
+root.ui.editable-table.computed,自动计算,Calculated,Calculado,自動計算
+root.ui.editable-table.delete-row,删除第{row}行,Delete line {row},Eliminar línea {row},刪除第{row}行
+root.ui.editable-table.deleted,已删除{count}行,Lines deleted: {count},Líneas eliminadas: {count},已刪除{count}行
+root.ui.editable-table.editable,可编辑,Editable,Editable,可編輯
+root.ui.editable-table.empty,还没有明细行,No lines yet,Aún no hay líneas,還沒有明細行
+root.ui.editable-table.index,行,Line,Línea,行
+root.ui.editable-table.keyboard-hint,双击或按Enter编辑，Tab到下一格，末行按Enter新增一行,"Double-click or Enter to edit, Tab for next cell, Enter on the last line adds a line","Doble clic o Enter para editar, Tab para la siguiente celda, Enter en la última línea agrega una",雙擊或按Enter編輯，Tab到下一格，末行按Enter新增一行
+root.ui.editable-table.keyboard-hint-fixed,双击或按Enter编辑，Tab到下一格,"Double-click or Enter to edit, Tab for next cell","Doble clic o Enter para editar, Tab para la siguiente celda",雙擊或按Enter編輯，Tab到下一格
+root.ui.editable-table.row-errors,第{rows}行有错误,Lines with errors: {rows},Líneas con errores: {rows},第{rows}行有錯誤
+root.ui.editable-table.undo,撤销,Undo,Deshacer,撤銷
+root.ui.entry.blocked,当前入口不可用,This entry is unavailable,Esta entrada no está disponible,當前入口不可用
+root.ui.entry.pending,正在确认入口可用性…,Checking availability…,Comprobando disponibilidad…,正在確認入口可用性…
+root.ui.entry.unavailable,暂时无法确认入口可用性,Availability could not be confirmed,No se pudo confirmar la disponibilidad,暫時無法確認入口可用性
+root.ui.error.route.description,当前业务路由没有绑定已注册工作区，请联系管理员检查模块配置。,This business route is not bound to a registered workspace. Ask an administrator to check the module configuration.,La ruta de negocio no está vinculada a un espacio registrado. Pida a un administrador que revise la configuración del módulo.,當前業務路由沒有綁定已註冊工作區，請聯繫管理員檢查模塊配置。
+root.ui.error.route.title,页面配置错误,Page configuration error,Error de configuración,頁面配置錯誤
+root.ui.error.runtime,UI 运行时启动失败,UI runtime failed to start,No se pudo iniciar el runtime UI,UI 運行時啓動失敗
+root.ui.header.account,账号与偏好,Account and preferences,Cuenta y preferencias,賬號與偏好
+root.ui.header.back,返回当前页面的上一项,Back in the current page,Atrás en la página actual,返回當前頁面的上一項
+root.ui.header.forward,前进到当前页面的下一项,Forward in the current page,Adelante en la página actual,前進到當前頁面的下一項
+root.ui.header.history,当前页面历史,Current page history,Historial de la página actual,當前頁面歷史
+root.ui.header.home,返回首页,Go to home,Ir al inicio,返回首頁
+root.ui.header.identity-unavailable,身份模块未安装,Identity module not installed,Módulo de identidad no instalado,身份模塊未安裝
+root.ui.header.language,语言,Language,Idioma,語言
+root.ui.header.language-current,界面语言：{name},Interface language: {name},Idioma de la interfaz: {name},界面語言：{name}
+root.ui.header.language-failed-message,{name} 的语言资源暂时无法加载，界面继续使用当前语言。,The language resources for {name} are unavailable right now. The interface keeps the current language.,Los recursos de idioma de {name} no están disponibles ahora. La interfaz mantiene el idioma actual.,{name} 的語言資源暫時無法加載，界面繼續使用當前語言。
+root.ui.header.language-failed-title,语言切换失败,Language switch failed,No se pudo cambiar el idioma,語言切換失敗
+root.ui.header.language-partial,{name} · 已翻译 {coverage},{name} · {coverage} translated,{name} · {coverage} traducido,{name} · 已翻譯 {coverage}
+root.ui.header.navigation-progress,正在打开页面,Opening page,Abriendo la página,正在打開頁面
+root.ui.header.notifications-unavailable,通知中心模块未安装,Notification center module not installed,Módulo del centro de notificaciones no instalado,通知中心模塊未安裝
+root.ui.header.preferences,偏好设置,Preferences,Preferencias,偏好設置
+root.ui.header.search,搜索工作区与页面,Search workspaces and pages,Buscar espacios y páginas,搜索工作區與頁面
+root.ui.header.search-focus,聚焦搜索,Focus search,Enfocar la búsqueda,聚焦搜索
+root.ui.header.search-no-match,没有匹配「{query}」的工作区或页面,No workspace or page matches “{query}”,Ningún espacio o página coincide con “{query}”,沒有匹配「{query}」的工作區或頁面
+root.ui.header.search-results,搜索结果,Search results,Resultados de búsqueda,搜索結果
+root.ui.header.theme,主题,Theme,Tema,主題
+root.ui.icons.all,全部集合,All collections,Todas las colecciones,全部集合
+root.ui.icons.collection,图标集合,Icon collection,Colección de iconos,圖標集合
+root.ui.icons.copy,复制 {name},Copy {name},Copiar {name},複製 {name}
+root.ui.icons.count,{count} 个图标,Icons: {count},Iconos: {count},{count} 個圖標
+root.ui.icons.echoo,ECHOO 图标,ECHOO icons,Iconos ECHOO,ECHOO 圖標
+root.ui.icons.empty,没有匹配的图标,No matching icons,No hay iconos coincidentes,沒有匹配的圖標
+root.ui.icons.material-symbols,Material Symbols,Material Symbols,Material Symbols,Material Symbols
+root.ui.icons.mdi,Material Design Icons,Material Design Icons,Material Design Icons,Material Design Icons
+root.ui.icons.runtime,启动已离线注册 {count} 个 canonical 图标 · {duration} ms,Registered {count} canonical icons offline at startup · {duration} ms,Se registraron {count} iconos canónicos sin conexión al iniciar · {duration} ms,啓動已離線註冊 {count} 個 canonical 圖標 · {duration} ms
+root.ui.icons.search,按 canonical 名称搜索,Search by canonical name,Buscar por nombre canónico,按 canonical 名稱搜索
+root.ui.nav.diagnostic,部署状态,Deployment state,Estado del despliegue,部署狀態
+root.ui.nav.i18n,语言资源状态,Language resource status,Estado de recursos de idioma,語言資源狀態
+root.ui.nav.proof,UI 验证,UI proof,Prueba UI,UI 驗證
+root.ui.navigation.section.configuration,基础配置,General configuration,Configuración general,基礎配置
+root.ui.navigation.section.deployment,部署维护,Deployment maintenance,Mantenimiento del despliegue,部署維護
+root.ui.navigation.section.ui-validation,界面验证,Interface validation,Validación de interfaz,界面驗證
+root.ui.notification.copied-message,已复制 {name},Copied {name},Se copió {name},已複製 {name}
+root.ui.notification.copied-title,图标名称已复制,Icon name copied,Nombre del icono copiado,圖標名稱已複製
+root.ui.notification.demo-error-title,操作失败,Operation failed,Operación fallida,操作失敗
+root.ui.notification.demo-info-title,信息通知,Information,Información,信息通知
+root.ui.notification.demo-message,这是一条位于{position}的本地 UI 通知。,This is a local UI notification at {position}.,Esta es una notificación UI local en {position}.,這是一條位於{position}的本地 UI 通知。
+root.ui.notification.demo-success-title,操作成功,Operation succeeded,Operación exitosa,操作成功
+root.ui.notification.demo-warning-title,请注意,Attention required,Atención requerida,請注意
+root.ui.notification.detail,查看详情,View details,Ver detalles,查看詳情
+root.ui.notification.detail-count,详情回调次数：{count},Detail callback count: {count},Llamadas al detalle: {count},詳情回調次數：{count}
+root.ui.notification.duration,显示时长,Duration,Duración,顯示時長
+root.ui.notification.duration-default,默认 · 4.5 秒,Default · 4.5 seconds,"Predeterminada · 4,5 segundos",默認 · 4.5 秒
+root.ui.notification.duration-long,10 秒,10 seconds,10 segundos,10 秒
+root.ui.notification.duration-persistent,常驻 · 手动关闭,Persistent · close manually,Permanente · cierre manual,常駐 · 手動關閉
+root.ui.notification.position,弹出位置,Popup position,Posición emergente,彈出位置
+root.ui.notification.position-bottom-left,左下角,Bottom left,Abajo a la izquierda,左下角
+root.ui.notification.position-bottom-right,右下角,Bottom right,Abajo a la derecha,右下角
+root.ui.notification.position-top-left,左上角,Top left,Arriba a la izquierda,左上角
+root.ui.notification.position-top-right,右上角,Top right,Arriba a la derecha,右上角
+root.ui.notification.type-error,错误,Error,Error,錯誤
+root.ui.notification.type-info,信息,Info,Información,信息
+root.ui.notification.type-success,成功,Success,Éxito,成功
+root.ui.notification.type-warning,警告,Warning,Advertencia,警告
+root.ui.notification.with-detail,带详情入口的信息通知,Info notification with details,Notificación con acceso a detalles,帶詳情入口的信息通知
+root.ui.notification.with-sound,带显式音效的成功通知,Success notification with explicit sound,Notificación de éxito con sonido explícito,帶顯式音效的成功通知
+root.ui.overlay.next,下一条,Next,Siguiente,下一條
+root.ui.overlay.pager,切换记录,Browse records,Navegar registros,切換記錄
+root.ui.overlay.previous,上一条,Previous,Anterior,上一條
+root.ui.page-header.back,返回{label},Back to {label},Volver a {label},返回{label}
+root.ui.panels.hide,收起,Hide,Ocultar,收起
+root.ui.panels.note,临时笔记,Scratch notes,Notas temporales,臨時筆記
+root.ui.panels.open-application,打开工作台面板,Open workbench panel,Abrir panel del área de trabajo,打開工作臺面板
+root.ui.panels.open-page,打开页面面板,Open page panel,Abrir panel de página,打開頁面面板
+root.ui.panels.proof-title,辅助内容,Supporting content,Contenido auxiliar,輔助內容
+root.ui.panels.unsaved-message,“{title}”有未保存内容。放弃后关闭？,“{title}” has unsaved changes. Discard and close?,“{title}” tiene cambios sin guardar. ¿Descartar y cerrar?,“{title}”有未保存內容。放棄後關閉？
+root.ui.proof.components,基础组件,Primitives,Componentes base,基礎組件
+root.ui.proof.danger,危险,Danger,Peligro,危險
+root.ui.proof.default,默认,Default,Predeterminado,默認
+root.ui.proof.default-link,默认链接,Default link,Enlace predeterminado,默認鏈接
+root.ui.proof.description,工作台区域、Element Plus、ECHOO token、链接与资源状态共用一个运行时。,"Workbench regions, Element Plus, ECHOO tokens, links and resource states share one runtime.","Las áreas del espacio de trabajo, Element Plus, tokens ECHOO, enlaces y estados usan un solo runtime.",工作臺區域、Element Plus、ECHOO token、鏈接與資源狀態共用一個運行時。
+root.ui.proof.disabled,已禁用,Disabled,Deshabilitado,已禁用
+root.ui.proof.icons,离线图标目录,Offline icon catalog,Catálogo de iconos sin conexión,離線圖標目錄
+root.ui.proof.input,ECHOO 输入框,ECHOO input,Entrada ECHOO,ECHOO 輸入框
+root.ui.proof.links,链接,Links,Enlaces,鏈接
+root.ui.proof.notifications,Notification 弹窗,Notification popups,Notificaciones emergentes,Notification 彈窗
+root.ui.proof.primary,主要,Primary,Principal,主要
+root.ui.proof.primary-link,主要链接,Primary link,Enlace principal,主要鏈接
+root.ui.proof.resources,资源展示,Resource presentations,Presentaciones de recursos,資源展示
+root.ui.proof.sounds,音效 Catalog,Sound catalog,Catálogo de sonidos,音效 Catalog
+root.ui.proof.title,UI 普通模块,UI ordinary module,Módulo ordinario UI,UI 普通模塊
+root.ui.proof.workbench,工作台组合,Workbench composition,Composición del área de trabajo,工作臺組合
+root.ui.proof.workbench-description,大区、页面与辅助面板按内容注册组合，笔记在面板收起和页签切换期间保留。,"Content registrations compose areas, pages and panels. Notes remain when a panel is hidden or a tab changes.","Las áreas, páginas y paneles se componen mediante registros de contenido. Las notas se conservan al ocultar un panel o cambiar de pestaña.",大區、頁面與輔助面板按內容註冊組合，筆記在面板收起和頁籤切換期間保留。
+root.ui.resource.click-retry,点击链接重试,Click the link to retry,Haga clic en el enlace para reintentar,點擊鏈接重試
+root.ui.resource.copy,复制引用,Copy reference,Copiar referencia,複製引用
+root.ui.resource.details-short,详情,Details,Detalles,詳情
+root.ui.resource.forbidden.description,你无权查看此资源，请联系管理员申请访问权限。,You do not have permission to view this resource. Ask an administrator for access.,No tiene permiso para ver este recurso. Solicite acceso a un administrador.,你無權查看此資源，請聯繫管理員申請訪問權限。
+root.ui.resource.forbidden.title,权限不足,Access denied,Acceso denegado,權限不足
+root.ui.resource.history,查看历史,View history,Ver historial,查看歷史
+root.ui.resource.loading,正在解析资源…,Resolving resource…,Resolviendo recurso…,正在解析資源…
+root.ui.resource.missing.description,此规范引用当前无法解析。,This canonical reference cannot be resolved.,Esta referencia canónica no se puede resolver.,此規範引用當前無法解析。
+root.ui.resource.missing.title,资源不存在,Resource not found,Recurso inexistente,資源不存在
+root.ui.resource.open-details,打开完整详情,Open full details,Abrir detalles completos,打開完整詳情
+root.ui.resource.reference,查看引用,View reference,Ver referencia,查看引用
+root.ui.resource.retired.description,此资源不再活动，可能仍有历史记录。,This resource is no longer active; history may remain.,El recurso ya no está activo; puede conservar historial.,此資源不再活動，可能仍有歷史記錄。
+root.ui.resource.retired.title,资源已归档,Resource retired,Recurso retirado,資源已歸檔
+root.ui.resource.retry,重试,Retry,Reintentar,重試
+root.ui.resource.select.empty,暂无可选资源,No resources available,No hay recursos disponibles,暫無可選資源
+root.ui.resource.select.failed,部分资源目录加载失败。已选项已保留，请重试。,Some resource lists could not load. Your selection is retained. Retry to refresh.,No se pudieron cargar algunos catálogos. Se conserva la selección. Intente de nuevo.,部分資源目錄加載失敗。已選項已保留，請重試。
+root.ui.resource.select.forbidden,部分资源目录无权读取。请确认读取权限后重试。,Some resource lists require access. Check your permissions and retry.,No tiene acceso a algunos catálogos. Revise sus permisos e intente de nuevo.,部分資源目錄無權讀取。請確認讀取權限後重試。
+root.ui.resource.select.load-more,加载更多,Load more,Cargar más,加載更多
+root.ui.resource.select.placeholder,按名称搜索并选择,Search and select by name,Buscar y seleccionar por nombre,按名稱搜索並選擇
+root.ui.resource.select.state,{name}（{state}）,{name} ({state}),{name} ({state}),{name}（{state}）
+root.ui.resource.unreachable.description,无法连接所属模块，请稍后重试。,The module that owns it cannot be reached. Try again later.,No se puede conectar con el módulo propietario. Intente de nuevo más tarde.,無法連接所屬模塊，請稍後重試。
+root.ui.resource.unreachable.title,资源暂时不可达,Resource unavailable,Recurso no disponible,資源暫時不可達
+root.ui.save-bar.cancel,取消,Cancel,Cancelar,取消
+root.ui.save-bar.clean,没有未保存的修改,No unsaved changes,Sin cambios pendientes,沒有未保存的修改
+root.ui.save-bar.dirty,有未保存的修改,Unsaved changes,Cambios sin guardar,有未保存的修改
+root.ui.save-bar.errors,{count}处需要修改,Errors to fix: {count},Errores por corregir: {count},{count}處需要修改
+root.ui.save-bar.label,保存操作,Save actions,Acciones de guardado,保存操作
+root.ui.save-bar.save,保存,Save,Guardar,保存
+root.ui.save-bar.saving,正在保存…,Saving…,Guardando…,正在保存…
+root.ui.shortcut.action,操作,Action,Acción,操作
+root.ui.shortcut.active,已启用,Enabled,Habilitado,已啓用
+root.ui.shortcut.close-overlay,关闭当前弹窗,Close current dialog,Cerrar el diálogo actual,關閉當前彈窗
+root.ui.shortcut.close-preview,关闭资源预览,Close resource preview,Cerrar la vista previa,關閉資源預覽
+root.ui.shortcut.diagnostics,最近诊断,Recent diagnostics,Diagnósticos recientes,最近診斷
+root.ui.shortcut.id,标识,ID,ID,標識
+root.ui.shortcut.inactive,已停用,Inactive,Inactivo,已停用
+root.ui.shortcut.instances,当前域实例,Scope instances,Instancias de ámbito,當前域實例
+root.ui.shortcut.keys,组合键,Keys,Teclas,組合鍵
+root.ui.shortcut.kind,类型,Type,Tipo,類型
+root.ui.shortcut.kind-application,应用,Application,Aplicación,應用
+root.ui.shortcut.kind-area,大区,Area,Área,大區
+root.ui.shortcut.kind-focus,焦点区域,Focus region,Región de foco,焦點區域
+root.ui.shortcut.kind-overlay,弹层,Overlay,Superposición,彈層
+root.ui.shortcut.kind-page,页面,Page,Página,頁面
+root.ui.shortcut.no-diagnostics,暂无快捷键冲突或错误。,No shortcut conflicts or errors.,No hay conflictos ni errores de atajos.,暫無快捷鍵衝突或錯誤。
+root.ui.shortcut.probe,页面快捷键探针,Page shortcut probe,Prueba de atajo de página,頁面快捷鍵探針
+root.ui.shortcut.probe-count,按 Alt+Shift+Y 测试当前页，已响应 {count} 次。,Press Alt+Shift+Y to test this page. Triggers: {count}.,Presione Alt+Shift+Y para probar esta página. Activaciones: {count}.,按 Alt+Shift+Y 測試當前頁，已響應 {count} 次。
+root.ui.shortcut.scope,作用域,Scope,Ámbito,作用域
+root.ui.shortcut.state,状态,State,Estado,狀態
+root.ui.shortcut.title,快捷键与作用域,Shortcuts and scopes,Atajos y ámbitos,快捷鍵與作用域
+root.ui.sound.attention,需要处理,Attention required,Se requiere atención,需要處理
+root.ui.sound.channel-attention,注意提醒,Attention cue,Aviso de atención,注意提醒
+root.ui.sound.channel-feedback,确认反馈,Confirmation feedback,Confirmación,確認反饋
+root.ui.sound.channel-operation,操作反馈,Operation feedback,Respuesta de operación,操作反饋
+root.ui.sound.confirmed,操作已确认,Action confirmed,Operación confirmada,操作已確認
+root.ui.sound.control,音效,Sound,Sonido,音效
+root.ui.sound.domain-effect,领域音效,Domain sound,Sonido del dominio,領域音效
+root.ui.sound.enabled,启用音效,Enable sound,Activar sonido,啓用音效
+root.ui.sound.master-volume,主音量（%）,Master volume (%),Volumen general (%),主音量（%）
+root.ui.sound.navigation-blocked,导航被阻止,Navigation blocked,Navegación bloqueada,導航被阻止
+root.ui.sound.play,试听,Play,Probar,試聽
+root.ui.sound.rejected,操作被拒绝,Action rejected,Operación rechazada,操作被拒絕
+root.ui.sound.status-blocked,浏览器阻止播放,Playback blocked by the browser,El navegador bloqueó la reproducción,瀏覽器阻止播放
+root.ui.sound.status-muted,当前已静音,Sound is muted,El sonido está silenciado,當前已靜音
+root.ui.sound.status-played,已播放,Played,Reproducido,已播放
+root.ui.sound.status-rate-limited,已被节流,Playback rate limited,Reproducción limitada,已被節流
+root.ui.sound.status-suppressed,窗口未处于前台,Window is not in the foreground,La ventana no está en primer plano,窗口未處於前臺
+root.ui.sound.status-unavailable,音频不可用,Audio unavailable,Audio no disponible,音頻不可用
+root.ui.sound.sync-error,音效偏好同步失败：{error},Sound preference sync failed: {error},Falló la sincronización del sonido: {error},音效偏好同步失敗：{error}
+root.ui.status-trail.label,单据进度,Document progress,Progreso del documento,單據進度
+root.ui.status.ready,运行正常,Ready,Lista,運行正常
+root.ui.status.sync-error,宿主同步失败：{error},Host synchronization failed: {error},Falló la sincronización con el host: {error},宿主同步失敗：{error}
+root.ui.tabs.cancel,取消,Cancel,Cancelar,取消
+root.ui.tabs.close,关闭“{title}”,Close “{title}”,Cerrar “{title}”,關閉“{title}”
+root.ui.tabs.current,当前页面,Current page,Página actual,當前頁面
+root.ui.tabs.discard,放弃并继续,Discard and continue,Descartar y continuar,放棄並繼續
+root.ui.tabs.label,打开的页面,Open pages,Páginas abiertas,打開的頁面
+root.ui.tabs.limit-message,最多同时保留 {count} 个页面，请先关闭一个页面。,Up to {count} pages can remain open. Close one before opening another.,Se pueden mantener hasta {count} páginas. Cierre una antes de abrir otra.,最多同時保留 {count} 個頁面，請先關閉一個頁面。
+root.ui.tabs.limit-title,打开的页面已达上限,Open page limit reached,Se alcanzó el límite de páginas,打開的頁面已達上限
+root.ui.tabs.new,新建页面,New page,Nueva página,新建頁面
+root.ui.tabs.overview,全部页面（{count}/{limit}）,All pages ({count}/{limit}),Todas las páginas ({count}/{limit}),全部頁面（{count}/{limit}）
+root.ui.tabs.unsaved-indicator,有未保存的更改,Unsaved changes,Cambios sin guardar,有未保存的更改
+root.ui.tabs.unsaved-message,“{title}”包含未保存的更改。,“{title}” contains unsaved changes.,“{title}” contiene cambios sin guardar.,“{title}”包含未保存的更改。
+root.ui.tabs.unsaved-title,放弃未保存的更改？,Discard unsaved changes?,¿Descartar cambios sin guardar?,放棄未保存的更改？
+root.ui.theme.dark,深色,Dark,Oscuro,深色
+root.ui.theme.dark-alpha,透明深色,Dark alpha,Oscuro transparente,透明深色
+root.ui.theme.light,浅色,Light,Claro,淺色
+root.ui.theme.system,跟随系统,System,Sistema,跟隨系統
+root.ui.workbench.area,工作台,Workbench,Área de trabajo,工作臺
+root.ui.workbench.areas,工作大区,Work areas,Áreas de trabajo,工作大區
+root.ui.workbench.close,关闭,Close,Cerrar,關閉
+root.ui.workbench.filter,查找功能…,Find a function…,Buscar función…,查找功能…
+root.ui.workbench.home,首页,Home,Inicio,首頁
+root.ui.workbench.panels,辅助面板,Supporting panels,Paneles auxiliares,輔助面板
+root.ui.workbench.pinned,常用入口,Pinned shortcuts,Accesos fijados,常用入口
+root.ui.workbench.resize-panel,调整面板宽度,Resize panel,Cambiar ancho del panel,調整面板寬度
+root.ui.workbench.resize-sidebar,调整导航宽度,Resize navigation,Cambiar ancho de navegación,調整導航寬度
+root.ui.workbench.retry,重试,Retry,Reintentar,重試
+root.ui.workbench.sidebar,功能导航,Navigation,Navegación,功能導航
+root.ui.workspace.deployment,部署诊断,Deployment diagnostics,Diagnóstico del despliegue,部署診斷
+root.ui.workspace.deployment-description,当前宿主、模块装配与资源入口状态。,"Current host, module assembly and resource entry state.","Estado del host, módulos y entradas de recursos.",當前宿主、模塊裝配與資源入口狀態。
+root.ui.workspace.ui,UI 系统,UI system,Sistema UI,UI 系統
+root.ui.workspace.ui-description,ECHOO Shell、组件、主题与资源展示验证。,"ECHOO Shell, components, themes and resource presentation proof.","Prueba de ECHOO Shell, componentes, temas y recursos.",ECHOO Shell、組件、主題與資源展示驗證。
