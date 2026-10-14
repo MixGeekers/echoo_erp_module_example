@@ -15,4 +15,5 @@
 - 模块只通过 owner 的公开 package exports 使用 Root 模块与平台包，禁止相对路径进入其他仓库或其他模块的源码。
 - Root 依赖按主仓 SDK 绑定：在主仓根目录执行 `pnpm launcher sdk export --consumer ../echoo_erp_module_example` 取得 SDK，再在本仓根目录执行 `node <SDK目录>/tools/sdk.mjs use .`。工具把各模块的 `@echoo/*` 依赖改写为指向 `.echoo/sdk/<摘要>/` 副本的 `file:` 依赖，并写入 `echoo.sdk.json` 与 `sdk:check`、`sdk:capture`。`.echoo/` 不进入 Git。
 - 常用命令：`pnpm install`、`pnpm build`、`pnpm test`、`pnpm sdk:check`。
-- 不提交 `.env`、凭据、token、模块池接入文件或运行产物。发布经所属模块池接入文件执行，远端写入须有用户授权。
+- 不提交 `.env`、凭据、token、模块池接入文件或运行产物。发布经所属模块池接入文件执行，在用户明确要求时进行。
+- PR 的审查、追问与合并按主仓 `docs/governance/自动审查与合并.md` 的授权执行，取舍依据主仓 `docs/governance/决策准则.md`；本仓落地方式见 `.claude/skills/steward/SKILL.md`。
