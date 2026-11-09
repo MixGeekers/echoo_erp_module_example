@@ -14,8 +14,8 @@
         "minMinor": 1
       },
       "backend": {
-        "major": 1,
-        "minMinor": 1
+        "major": 2,
+        "minMinor": 0
       }
     }
   },

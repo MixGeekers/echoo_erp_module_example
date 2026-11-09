@@ -1,11 +1,8 @@
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { createCore, materializeModuleEntry } from "@echoo/core";
-import i18nEntry, {
-  i18nBackendToken,
-  i18nCatalog,
-  I18nRegistry,
-} from "@echoo/module-root.i18n/backend";
+import i18nEntry, { i18nBackendToken } from "@echoo/module-root.i18n/backend";
+import { i18nCatalog, I18nRegistry } from "@echoo/module-root.i18n/backend-testing";
 import {
   BUILTIN_LOCALE_TAGS,
   SOURCE_LOCALE,
