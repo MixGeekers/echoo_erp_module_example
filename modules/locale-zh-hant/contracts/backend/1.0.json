@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "moduleId": "example.locale-zh-hant",
+  "surface": "backend",
+  "version": "1.0",
+  "entry": "index.d.ts",
+  "files": {
+    "index.d.ts": "import type { LocaleTag } from \"@echoo/module-root.i18n/shared\";\nexport interface LanguagePackApi {\n    readonly locale: LocaleTag;\n}\nexport declare const languagePackToken: import(\"@echoo/core\").ModuleApiToken<\"example.locale-zh-hant\", \"backend\", LanguagePackApi>;\ndeclare const _default: import(\"@echoo/core\").ModuleEntryDefinition<import(\"@echoo/core\").ModuleApiToken<\"example.locale-zh-hant\", \"backend\", LanguagePackApi>, readonly [\n    import(\"@echoo/core\").ModuleApiToken<\"root.i18n\", \"backend\", import(\"@echoo/module-root.i18n/shared\").I18nBackendApi>\n]>;\nexport default _default;\n"
+  },
+  "references": {
+    "@echoo/module-root.i18n/shared": {
+      "major": 1,
+      "minMinor": 1
+    }
+  }
+}

@@ -4,18 +4,21 @@
   "type": "module",
   "exports": {
     "./backend": {
+      "echoo-source": "./src/backend.ts",
       "types": "./dist/backend.d.ts",
       "import": "./dist/backend.js"
     }
   },
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "test": "node dist/smoke.js"
+    "test": "node dist/smoke.js",
+    "sdk:check": "node ../../.echoo/sdk/current/tools/sdk.mjs check .",
+    "sdk:capture": "node ../../.echoo/sdk/current/tools/sdk.mjs capture ."
   },
   "dependencies": {
-    "@echoo/core": "workspace:*",
-    "@echoo/package-manager": "workspace:*",
-    "@echoo/module-root.i18n": "workspace:*"
+    "@echoo/core": "file:../../.echoo/sdk/current/packages/echoo__core",
+    "@echoo/package-manager": "file:../../.echoo/sdk/current/packages/echoo__package-manager",
+    "@echoo/module-root.i18n": "file:../../.echoo/sdk/current/packages/echoo__module-root.i18n"
   },
   "description": "繁体中文（zh-Hant）语言包示例"
 }
