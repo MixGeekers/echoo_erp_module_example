@@ -15,9 +15,9 @@
 
 ## 译文来源
 
-当前 `translations.csv` 从包含以下 9 个 Root 模块的组合导出，共 631 个 key：`root.connectivity`、`root.home`、`root.i18n`、`root.localization`、`root.manuals`、`root.measurement`、`root.navigation`、`root.settings`、`root.ui`。`translation` 列由 OpenCC `s2t` 把 zh-CN 原文逐字转换为繁体字形，属于机器转换，正式使用前需要人工校对用词，例如台湾地区习惯的「伺服器」「網路」「檔案」等。
+当前 `translations.csv` 从包含以下 8 个 Root 模块的组合导出，共 571 个 key：`root.connectivity`、`root.i18n`、`root.localization`、`root.manuals`、`root.measurement`、`root.navigation`、`root.settings`、`root.ui`。`translation` 列由 OpenCC `s2t` 把 zh-CN 原文逐字转换为繁体字形，属于机器转换，正式使用前需要人工校对用词，例如台湾地区习惯的「伺服器」「網路」「檔案」等。
 
-部署中这 9 个模块之外的 key 不在本语言包内，按回退链显示简体原文；目标组合包含更多模块时，从该组合重新导出后补译。
+部署中这 8 个模块之外的 key 不在本语言包内，按回退链显示简体原文；目标组合包含更多模块时，从该组合重新导出后补译。
 
 ## 构建与验证
 

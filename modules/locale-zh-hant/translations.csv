@@ -22,55 +22,6 @@ root.connectivity.recovered.description,后端服务器已重新可用，正在�
 root.connectivity.recovered.title,已恢复连接,Connection restored,Conexión restablecida,已恢復連接
 root.connectivity.server-error.description,服务器可达但健康检查返回错误（HTTP {status}）。为防止数据不一致，操作已暂停；正在自动重试，请稍候。,"The server is reachable but its health check returned an error (HTTP {status}). Operations are paused to prevent inconsistent data; retrying automatically, please wait.","El servidor es alcanzable pero su verificación de salud devolvió un error (HTTP {status}). Las operaciones quedan en pausa para evitar datos inconsistentes; reintentando automáticamente, espere un momento.",服務器可達但健康檢查返回錯誤（HTTP {status}）。爲防止數據不一致，操作已暫停；正在自動重試，請稍候。
 root.connectivity.server-error.title,后端服务器返回错误,Backend server returned an error,El servidor devolvió un error,後端服務器返回錯誤
-root.home.column.assignee,负责人,Assignee,Responsable,負責人
-root.home.column.priority,优先级,Priority,Prioridad,優先級
-root.home.column.status,状态,Status,Estado,狀態
-root.home.column.time,时间,Time,Hora,時間
-root.home.column.work,工作,Work,Trabajo,工作
-root.home.description,汇总你今天要处理的工作和常用功能入口。,Your work for today and the features you use most.,Su trabajo de hoy y las funciones que más usa.,彙總你今天要處理的工作和常用功能入口。
-root.home.entries,功能入口,Features,Funciones,功能入口
-root.home.load-more,加载更多,Load more,Cargar más,加載更多
-root.home.more-error,后续工作加载失败：网络或服务暂时不可用，当前列表已保留。请重试。,Couldn't load more work: the network or service is temporarily unavailable. Your current list is kept. Try again.,No se pudo cargar más trabajo: la red o el servicio no está disponible. La lista actual se conserva. Inténtelo de nuevo.,後續工作加載失敗：網絡或服務暫時不可用，當前列表已保留。請重試。
-root.home.no-sources,暂无可用的工作来源。,No work sources are available.,No hay fuentes de trabajo disponibles.,暫無可用的工作來源。
-root.home.quick-empty,当前没有可用的快捷入口。,No quick entries are available yet.,Aún no hay accesos rápidos disponibles.,當前沒有可用的快捷入口。
-root.home.quick-start.configure,配置,Configure,Configurar,配置
-root.home.quick-start.editor.add-entry,添加{name},Add: {name},Agregar: {name},添加{name}
-root.home.quick-start.editor.available,可添加入口,Available entries,Accesos disponibles,可添加入口
-root.home.quick-start.editor.cancel,取消,Cancel,Cancelar,取消
-root.home.quick-start.editor.conflict,快速开始已在其他窗口修改：已刷新为最新的入口，请重新调整。,Quick start changed in another window. The latest entries are shown; adjust them again.,El inicio rápido cambió en otra ventana. Se muestran los accesos más recientes; ajústelos de nuevo.,快速開始已在其他窗口修改：已刷新爲最新的入口，請重新調整。
-root.home.quick-start.editor.move-down,下移,Move down,Bajar,下移
-root.home.quick-start.editor.move-up,上移,Move up,Subir,上移
-root.home.quick-start.editor.no-candidates,没有可添加的入口,No entries to add,No hay accesos para agregar,沒有可添加的入口
-root.home.quick-start.editor.remove,移除,Remove,Quitar,移除
-root.home.quick-start.editor.restore-confirm,将清空已选入口，首页改为显示添加引导。,"This clears the selected entries, and Home shows a prompt to add them again.",Se vaciarán los accesos seleccionados y el inicio mostrará una guía para agregarlos.,將清空已選入口，首頁改爲顯示添加引導。
-root.home.quick-start.editor.restore-default,恢复默认,Restore default,Restaurar predeterminado,恢復默認
-root.home.quick-start.editor.restore-title,恢复默认快速开始？,Restore the default quick start?,¿Restaurar el inicio rápido predeterminado?,恢復默認快速開始？
-root.home.quick-start.editor.save-failed,无法保存快速开始：网络或服务暂时不可用，已恢复上次保存的入口。请稍后重试。,Could not save quick start: the network or service is temporarily unavailable. The last saved entries were restored. Try again shortly.,No se pudo guardar el inicio rápido: la red o el servicio no está disponible. Se restauraron los últimos accesos guardados. Inténtelo de nuevo en un momento.,無法保存快速開始：網絡或服務暫時不可用，已恢復上次保存的入口。請稍後重試。
-root.home.quick-start.editor.search,搜索入口…,Search entries…,Buscar accesos…,搜索入口…
-root.home.quick-start.editor.section-description,选择并排序首页“快速开始”显示的入口，只影响你的账号。,Choose and order the entries shown in Home quick start. This affects only your account.,Elija y ordene los accesos que se muestran en el inicio rápido. Solo afecta a su cuenta.,選擇並排序首頁“快速開始”顯示的入口，隻影響你的賬號。
-root.home.quick-start.editor.section-title,首页快速开始,Home quick start,Inicio rápido,首頁快速開始
-root.home.quick-start.editor.selected,已选入口,Selected entries,Accesos seleccionados,已選入口
-root.home.quick-start.editor.selected-empty,还没有常用入口，从左侧列表添加。,No pinned entries yet. Add them from the list on the left.,Aún no hay accesos fijados. Agréguelos desde la lista de la izquierda.,還沒有常用入口，從左側列表添加。
-root.home.quick-start.editor.session,无法保存快速开始：登录状态已变化。请重新登录后再试。,Could not save quick start: your session changed. Sign in again and retry.,No se pudo guardar el inicio rápido: su sesión cambió. Inicie sesión de nuevo e inténtelo otra vez.,無法保存快速開始：登錄狀態已變化。請重新登錄後再試。
-root.home.quick-start.editor.unavailable,不可用入口,Unavailable entry,Acceso no disponible,不可用入口
-root.home.quick-start.editor.updated,已更新首页快速开始,Home quick start updated,Inicio rápido actualizado,已更新首頁快速開始
-root.home.quick-start.editor.updated-detail,首页按新的顺序显示这些入口。,Home now shows these entries in the new order.,El inicio ya muestra estos accesos en el nuevo orden.,首頁按新的順序顯示這些入口。
-root.home.quick-start.empty-guide,还没有常用入口，点击“配置”添加。,No pinned entries yet. Select “Configure” to add some.,Aún no hay accesos fijados. Pulse “Configurar” para agregarlos.,還沒有常用入口，點擊“配置”添加。
-root.home.quick-start.error,快速开始加载失败：网络或服务暂时不可用。,Quick start failed to load: the network or service is temporarily unavailable.,No se pudo cargar el inicio rápido: la red o el servicio no está disponible.,快速開始加載失敗：網絡或服務暫時不可用。
-root.home.quick-start.retry,重试,Retry,Reintentar,重試
-root.home.refresh,刷新,Refresh,Actualizar,刷新
-root.home.retry,重试,Retry,Reintentar,重試
-root.home.scope.mine,我的,Mine,Míos,我的
-root.home.scope.team,团队,Team,Equipo,團隊
-root.home.scope.unassigned,未分配,Unassigned,Sin asignar,未分配
-root.home.showing,显示{count}/{total}项,Showing {count} of {total},Mostrando {count} de {total},顯示{count}/{total}項
-root.home.source-error,{source}的工作暂时无法加载。,Work from {source} is temporarily unavailable.,El trabajo de {source} no está disponible temporalmente.,{source}的工作暫時無法加載。
-root.home.tab.quick-start,快速开始,Quick start,Inicio rápido,快速開始
-root.home.title,首页,Home,Inicio,首頁
-root.home.today-work,今日工作,Today's work,Trabajo de hoy,今日工作
-root.home.value.unavailable,—,—,—,—
-root.home.work-empty,当前范围没有待处理工作。,No pending work in this scope.,No hay trabajo pendiente en este alcance.,當前範圍沒有待處理工作。
-root.home.workspaces,工作区,Workspaces,Espacios de trabajo,工作區
 root.i18n.status.column.accepted,采用,Accepted,Aceptados,採用
 root.i18n.status.column.chain,回退链,Fallback chain,Cadena de respaldo,回退鏈
 root.i18n.status.column.coverage,翻译覆盖,Translation coverage,Cobertura de traducción,翻譯覆蓋
@@ -297,17 +248,12 @@ root.navigation.access.description,修改所有账号共享的导航大区、分
 root.navigation.access.write,编辑全局导航,Edit shared navigation,Editar navegación compartida,編輯全局導航
 root.navigation.add-group,新建分组,Add group,Agregar grupo,新建分組
 root.navigation.area,所属大区,Area,Área,所屬大區
-root.navigation.cancel,取消编辑,Cancel editing,Cancelar edición,取消編輯
 root.navigation.conflict,无法保存导航布局：其他人已修改布局。草稿已保留，请取消编辑加载最新版本后再调整。,"Could not save the navigation layout: someone else changed it. Your draft is kept. Cancel editing to load the latest version, then adjust again.",No se pudo guardar el diseño de navegación: otra persona lo cambió. Se conservó el borrador. Cancele la edición para cargar la versión más reciente y ajústelo de nuevo.,無法保存導航佈局：其他人已修改佈局。草稿已保留，請取消編輯加載最新版本後再調整。
 root.navigation.delete-group,删除分组,Delete group,Eliminar grupo,刪除分組
-root.navigation.description,按业务分组查找功能，布局由全局共享。,Find functions by group. This layout is shared.,Busque funciones por grupo. Este diseño es compartido.,按業務分組查找功能，佈局由全局共享。
 root.navigation.down,下移,Move down,Bajar,下移
 root.navigation.drag,拖动排序,Drag to reorder,Arrastrar para ordenar,拖動排序
 root.navigation.drop-hint,拖入入口，或在下方待归类中选择此分组。,Drop entries here or assign them using the selectors below.,Suelte accesos aquí o asígnelos con los selectores de abajo.,拖入入口，或在下方待歸類中選擇此分組。
-root.navigation.edit,编辑布局,Edit layout,Editar diseño,編輯佈局
-root.navigation.edit-description,编辑全局导航布局,Edit the shared navigation layout,Editar la navegación compartida,編輯全局導航佈局
 root.navigation.edit-help,拖动手柄或使用上下移与分组选择调整顺序。分组决定入口的大区。删除分组后入口回到待归类；不可见入口配置保留。隐藏应用于侧栏、搜索与首页目录，访问权限由权限系统管理。,"Drag handles or use move buttons and group selectors. Groups determine the area. Deleting a group returns its entries to Uncategorized. Unavailable entry settings are retained. Hiding applies to the sidebar, search and home directory. Access is governed by permissions.","Arrastre las asas o use los botones y selectores de grupo. Los grupos determinan el área. Al eliminar un grupo, sus accesos vuelven a Sin clasificar. Se conservan los ajustes de accesos no disponibles. Ocultar se aplica a la barra lateral, la búsqueda y el directorio de inicio. Los permisos controlan el acceso.",拖動手柄或使用上下移與分組選擇調整順序。分組決定入口的大區。刪除分組後入口回到待歸類；不可見入口配置保留。隱藏應用於側欄、搜索與首頁目錄，訪問權限由權限系統管理。
-root.navigation.empty,没有匹配的功能入口,No matching features,No hay funciones que coincidan,沒有匹配的功能入口
 root.navigation.global-notice,保存后对所有账号生效，各账号仍只看到有权限的入口。,Saving applies to all accounts. Each account only sees permitted entries.,Los cambios se aplican a todas las cuentas. Cada cuenta solo ve los accesos permitidos.,保存後對所有賬號生效，各賬號仍只看到有權限的入口。
 root.navigation.group-name,分组名称（必填）,Group name (required),Nombre del grupo (obligatorio),分組名稱（必填）
 root.navigation.group.currency-tax,货币与税务,Currency and tax,Monedas e impuestos,貨幣與稅務
@@ -329,14 +275,10 @@ root.navigation.name-language,分组名称语言,Group name language,Idioma del 
 root.navigation.no-write,你没有编辑导航布局的权限，请联系管理员。,You do not have permission to edit the navigation layout. Ask an administrator for access.,No tiene permiso para editar el diseño de navegación. Solicite acceso a un administrador.,你沒有編輯導航佈局的權限，請聯繫管理員。
 root.navigation.other,待归类,Uncategorized,Sin clasificar,待歸類
 root.navigation.permission-error,暂时无法确认编辑权限：网络或服务暂时不可用。请重新加载页面后再试。,Editing permission could not be checked: the network or service is temporarily unavailable. Reload the page and try again.,No se pudo verificar el permiso de edición: la red o el servicio no está disponible. Vuelva a cargar la página e inténtelo de nuevo.,暫時無法確認編輯權限：網絡或服務暫時不可用。請重新加載頁面後再試。
-root.navigation.pin,置顶,Pin,Fijar,置頂
-root.navigation.pinned,常用入口,Pinned shortcuts,Accesos fijados,常用入口
 root.navigation.reset,恢复默认（保存后生效）,Restore defaults (save to apply),Restaurar valores predeterminados (guardar para aplicar),恢復默認（保存後生效）
 root.navigation.retry,重试,Retry,Reintentar,重試
 root.navigation.save,保存全局布局,Save shared layout,Guardar diseño compartido,保存全局佈局
 root.navigation.save-error,无法保存导航布局：网络或服务暂时不可用，草稿已保留。请稍后重试。,Could not save the navigation layout: the network or service is temporarily unavailable. Your draft is kept. Try again shortly.,No se pudo guardar el diseño de navegación: la red o el servicio no está disponible. Se conservó el borrador. Inténtelo de nuevo en un momento.,無法保存導航佈局：網絡或服務暫時不可用，草稿已保留。請稍後重試。
-root.navigation.search,搜索功能…,Search functions…,Buscar funciones…,搜索功能…
-root.navigation.title,功能入口,Functions,Funciones,功能入口
 root.navigation.unnamed,未命名分组,Unnamed group,Grupo sin nombre,未命名分組
 root.navigation.up,上移,Move up,Subir,上移
 root.settings.access.read.description,读取当前部署的系统设置,Read system settings for this deployment,Leer la configuración de este despliegue,讀取當前部署的系統設置
@@ -385,7 +327,6 @@ root.settings.personal.locale-system-active,跟随系统默认语言（当前为
 root.settings.personal.menu,个人设置,Personal settings,Ajustes personales,個人設置
 root.settings.personal.navigation,个人设置分类,Personal settings categories,Categorías de ajustes personales,個人設置分類
 root.settings.personal.retry,重试,Retry,Reintentar,重試
-root.settings.personal.section.home,首页,Home,Inicio,首頁
 root.settings.personal.section.i18n,语言,Language,Idioma,語言
 root.settings.personal.section.i18n-description,界面显示的语言。未选择时跟随系统设置的默认语言。,"The interface language. When not set, it follows the system default language.","Idioma de la interfaz. Si no se define, sigue el idioma predeterminado del sistema.",界面顯示的語言。未選擇時跟隨系統設置的默認語言。
 root.settings.personal.section.ui,外观,Appearance,Apariencia,外觀
@@ -621,7 +562,6 @@ root.ui.workbench.close,关闭,Close,Cerrar,關閉
 root.ui.workbench.filter,查找功能…,Find a function…,Buscar función…,查找功能…
 root.ui.workbench.home,首页,Home,Inicio,首頁
 root.ui.workbench.panels,辅助面板,Supporting panels,Paneles auxiliares,輔助面板
-root.ui.workbench.pinned,常用入口,Pinned shortcuts,Accesos fijados,常用入口
 root.ui.workbench.resize-panel,调整面板宽度,Resize panel,Cambiar ancho del panel,調整面板寬度
 root.ui.workbench.resize-sidebar,调整导航宽度,Resize navigation,Cambiar ancho de navegación,調整導航寬度
 root.ui.workbench.retry,重试,Retry,Reintentar,重試
