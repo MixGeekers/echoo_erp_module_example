@@ -15,7 +15,9 @@
 
 ## 译文来源
 
-当前 `translations.csv` 从包含以下 8 个 Root 模块的组合导出，共 571 个 key：`root.connectivity`、`root.i18n`、`root.localization`、`root.manuals`、`root.measurement`、`root.navigation`、`root.settings`、`root.ui`。`translation` 列由 OpenCC `s2t` 把 zh-CN 原文逐字转换为繁体字形，属于机器转换，正式使用前需要人工校对用词，例如台湾地区习惯的「伺服器」「網路」「檔案」等。
+当前 `translations.csv` 从包含以下 8 个 Root 模块的开发源文组合导出，共 883 个 key：`root.connectivity`、`root.i18n`、`root.localization`、`root.manuals`、`root.measurement`、`root.navigation`、`root.settings`、`root.ui`。2026-11-14 从主仓 `bac5d9f45e2b14bccd1d8dfe0c982c10d132b21c` 的实际目录注册到 `I18nRegistry`，通过 `source.js` 读取其语言清单与资源包，源 revision 为 `2953bd07436affbe95787d8c528930a528d090d38c9093387757abb578d44ca0`；未连接生产环境。
+
+初始译文由 OpenCC `s2t` 把 zh-CN 原文逐字转换为繁体字形，属于机器转换，正式使用前需要人工校对用词，例如台湾地区习惯的「伺服器」「網路」「檔案」等。本次保留原文未变的 538 条译文，人工跟进 18 条变更源文与 3 条新增计量文案，合计 559 条；其余 324 条留空并回退到简体原文。数量单位的句中单数与复数均为「件」，分层录入合计仅保留 `{quantity}`，不再额外拼接 `{unit}`。
 
 部署中这 8 个模块之外的 key 不在本语言包内，按回退链显示简体原文；目标组合包含更多模块时，从该组合重新导出后补译。
 
